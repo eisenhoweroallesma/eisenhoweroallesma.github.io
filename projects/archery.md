@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTU0z9YQ5DvrxICuI0B0fYYoXIGs7zIPEK6p_gl3BZaNg6noGNp
+image: C:\Users\etoal\Dropbox\HighSchoolArchery.jpg
 title: "Archery"
 date: 2019
 published: true
@@ -11,7 +11,7 @@ labels:
 summary: "The experience of joining the Archery Club in high school."
 ---
 
-<img class="img-fluid" src="../img/https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTU0z9YQ5DvrxICuI0B0fYYoXIGs7zIPEK6p_gl3BZaNg6noGNp">
+<img class="img-fluid" src="../C:\Users\etoal\Dropbox\HighSchoolArchery.jpg">
 
 I joined the archery club at the start of my freshman year because I wanted to get involved in school activities. Archery was perfect for me because shooting with bows and arrows felt cool and it's not really much of a physical sport.
 
