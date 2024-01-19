@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: https://github.com/eisenhoweroallesma/eisenhoweroallesma.github.io/blob/main/img/monitor_and_computer_sketch.png?raw=true
+image: https://raw.githubusercontent.com/eisenhoweroallesma/eisenhoweroallesma.github.io/main/img/Corsair%205000D%20case.webp
 title: "Building my own PC"
 date: 2021
 published: true
