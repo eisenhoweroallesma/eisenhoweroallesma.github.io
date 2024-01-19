@@ -1,8 +1,7 @@
 ---
 layout: project
 type: project
-image: ![Archery](https://github.com/eisenhoweroallesma/eisenhoweroallesma.github.io/assets/157007056/f5a3a522-fb7a-48c3-8523-edadf6e8ef5a)
-
+image: https://github.com/eisenhoweroallesma/eisenhoweroallesma.github.io/blob/main/img/Archery.jpg?raw=true
 title: "Archery"
 date: 2019
 published: true
@@ -12,7 +11,7 @@ labels:
 summary: "The experience of joining the Archery Club in high school."
 ---
 
-<img class="img-fluid" src="../">
+<img class="img-fluid" src="https://github.com/eisenhoweroallesma/eisenhoweroallesma.github.io/blob/main/img/Archery.jpg?raw=true">
 
 I joined the archery club at the start of my freshman year because I wanted to get involved in school activities. Archery was perfect for me because shooting with bows and arrows felt cool and it's not really much of a physical sport.
 
