@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: https://play-lh.googleusercontent.com/OiDSzR9Wlg2VznkOS-tHnKJwh6TKAlqupjmBNRQMG1rppMcnzWFMaoKjdW6TYRsBgGc=w526-h296-rw
+image: 
 title: "Anime Recommendation App"
 date: 2015
 published: true
@@ -9,10 +9,10 @@ labels:
   - Javascript
   - Education
   
-summary: "A responsive web application for travel planning that my team developed in ICS 415."
+summary: "Among my best computer projects."
 ---
 
-<img class="img-fluid" src="../https://play-lh.googleusercontent.com/OiDSzR9Wlg2VznkOS-tHnKJwh6TKAlqupjmBNRQMG1rppMcnzWFMaoKjdW6TYRsBgGc=w526-h296-rw">
+<img class="img-fluid" src="../">
 
 I've taken AP Computer Science in high school and one of the project apps that I made was an Anime Recommendation app. Basically, this app asks you two questions and it will recommend you the app based on your selection. Somewhat similar to Crunchyroll except my version.
 
