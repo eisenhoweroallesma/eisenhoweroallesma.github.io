@@ -6,7 +6,7 @@ title: "What is my interest and beyond my goals?"
 date: 2024-01-18
 published: true
 labels:
-  - Engineering
+  - Software engineering
   - Computer Science
 ---
 
