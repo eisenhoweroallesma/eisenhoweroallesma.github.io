@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: https://scontent.fhnl3-1.fna.fbcdn.net/v/t1.6435-9/57423119_2433705696639570_7148244182472065024_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=2be8e3&_nc_ohc=rpVa-XzKsXQAX_i1fw-&_nc_ht=scontent.fhnl3-1.fna&oh=00_AfD5iiwUf2rZfG-T4Rz-vws6U-sPHkMBEfDUQOAwl5keog&oe=65D1CD0E
+image: https://www.dropbox.com/scl/fi/z7vem8du2g5n91xfd5nmn/HighSchoolArchery.jpg?rlkey=lople2ixutoh8r4ipf24jltst&dl=0
 title: "Archery"
 date: 2019
 published: true
@@ -11,7 +11,7 @@ labels:
 summary: "The experience of joining the Archery Club in high school."
 ---
 
-<img class="img-fluid" src="../img/https://scontent.fhnl3-1.fna.fbcdn.net/v/t1.6435-9/57423119_2433705696639570_7148244182472065024_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=2be8e3&_nc_ohc=rpVa-XzKsXQAX_i1fw-&_nc_ht=scontent.fhnl3-1.fna&oh=00_AfD5iiwUf2rZfG-T4Rz-vws6U-sPHkMBEfDUQOAwl5keog&oe=65D1CD0E">
+<img class="img-fluid" src="../img/https://www.dropbox.com/scl/fi/z7vem8du2g5n91xfd5nmn/HighSchoolArchery.jpg?rlkey=lople2ixutoh8r4ipf24jltst&dl=0">
 
 I joined the archery club at the start of my freshman year because I wanted to get involved in school activities. Archery was perfect for me because shooting with bows and arrows felt cool and it's not really much of a physical sport.
 
