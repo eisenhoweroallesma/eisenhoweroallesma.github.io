@@ -14,33 +14,32 @@
     ]
   },
   "interests": [
-    { "name": "Software Developing" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    { "name": "Software Engineering" },
+    { "name": "Computer Science" },
+    { "name": "Web Development" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "keywords": [ "C", "C++", "Java", "Javascript" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "keywords": [ "MacOS", "Git/GitHub" ]
     }
   ],
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "area": "Information and Computer Science (expected Fall, 2025)",
+      "studyType": "B.A.",
+      "startDate": "08-23-2021",
       "endDate": "Present",
       "courses": [
       ]
     }
   ],
+  /**
   "work": [
     {
       "company": "UH Manoa Board of Publications",
@@ -113,4 +112,5 @@
       "name": "Available upon request"
     }
   ]
+  */
 }
