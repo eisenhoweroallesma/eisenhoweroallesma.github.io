@@ -7,6 +7,7 @@ date: 2024-01-18
 published: true
 labels:
   - Software Engineering
+  - Computer Science
 ---
 
 ## Experience with Javascript
