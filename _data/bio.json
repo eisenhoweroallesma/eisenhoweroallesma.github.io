@@ -7,10 +7,10 @@
     "phone": "808-319-1743",
     "website": "https://eisenhoweroallesma.github.io/",
     "summary": "I am studying for a B.A. in Information and Computer Science in the deparment of Information and Computer Science at the University of Hawaii. I expect to graduate in Fall, 2025.",
-    "location": { "address": " ", "postalCode": "96786", "city": "Wahiawa", "countryCode": "USA", "region": "Hawaii" },
+    "location": { "address": "1046 Ehoeho Ave Apt 329", "postalCode": "96786", "city": "Wahiawa", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "eisenhoweroallesma", "url": "https://eisenhoweroallesma.github.io/" },
-      { "network": "linkedin", "username": "etoallesma808", "url": "www.linkedin.com/in/eisen-hower-oallesma-07b730276" }
+      { "network": "linkedin", "username": "eoallesma", "url": "www.linkedin.com/in/eisen-hower-oallesma-07b730276" }
     ]
   },
   "interests": [
