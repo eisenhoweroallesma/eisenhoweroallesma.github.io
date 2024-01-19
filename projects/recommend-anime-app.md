@@ -3,7 +3,7 @@ layout: project
 type: project
 image: 
 title: "Anime Recommendation App"
-date: 2015
+date: 2021
 published: true
 labels:
   - Javascript
