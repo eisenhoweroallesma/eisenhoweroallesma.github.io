@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: https://github.com/eisenhoweroallesma/eisenhoweroallesma.github.io/blob/main/img/Archery.jpg?raw=true
+image: img/Archery.jpg
 title: "Archery"
 date: 2019
 published: true
