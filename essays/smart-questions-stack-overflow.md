@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Maintaining positive and supportive thoughts on Stack Overflow"
+title: "Keeping Positive and Professional Stack Overflow"
 # All dates must be YYYY-MM-DD format!
 date: 2024-25-01
 published: true
