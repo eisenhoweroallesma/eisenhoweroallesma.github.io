@@ -4,11 +4,11 @@ type: essay
 title: "Keeping Positive and Professional Stack Overflow"
 # All dates must be YYYY-MM-DD format!
 date: 2024-01-25
-published: true
+published: True
 labels:
   - Questions
   - Answers
-  - Stack Overflow
+  - StackOverflow
 ---
 
 ## Remembering That You Were Once a Beginner
