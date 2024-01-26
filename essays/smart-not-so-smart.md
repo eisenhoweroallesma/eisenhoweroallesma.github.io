@@ -11,8 +11,6 @@ labels:
   - StackOverflow
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/smart-question-image.png">
-
 ## Remembering That You Were Once a Beginner
 
 Not everyone can start off with a smart question. We were all once a beginner and that is where we started. We all make mistakes asking our first stupid question and nobody has a talent to know everything.
