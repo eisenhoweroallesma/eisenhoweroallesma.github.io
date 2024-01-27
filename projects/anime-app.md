@@ -12,7 +12,10 @@ labels:
 summary: "Among my best computer projects."
 ---
 
-<img class="img-fluid" src="https://raw.githubusercontent.com/eisenhoweroallesma/eisenhoweroallesma.github.io/main/img/unnamed.webp">
+<div class="text-center p-4">
+  <img width="200px" src="../img/anime-app-2.png" class="img-thumbnail" >
+  <img width="200px" src="../img/unnamed.webp" class="img-thumbnail" >
+</div>
 
 I've taken AP Computer Science in high school and one of the project apps that I made was an Anime Recommendation app. Basically, this app asks you two questions and it will recommend you the app based on your selection. Somewhat similar to Crunchyroll except my version.
 
