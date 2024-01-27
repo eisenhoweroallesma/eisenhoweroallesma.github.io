@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: https://raw.githubusercontent.com/eisenhoweroallesma/eisenhoweroallesma.github.io/main/img/unnamed.webp
+image: /img/anime-app.jpg
 title: "Anime Recommendation App"
 date: 2021
 published: true
