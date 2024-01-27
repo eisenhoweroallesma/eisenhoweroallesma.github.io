@@ -11,7 +11,7 @@ labels:
 summary: "The experience of joining the Archery Club in high school."
 ---
 
-<img class="img-fluid" src="https://github.com/eisenhoweroallesma/eisenhoweroallesma.github.io/blob/main/img/Archery.jpg?raw=true">
+<img width="400px" src="../img/Archery.jpg" >
 
 I joined the archery club at the start of my freshman year because I wanted to get involved in school activities. Archery was perfect for me because shooting with bows and arrows felt cool and it's not really much of a physical sport.
 
