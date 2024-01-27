@@ -11,7 +11,7 @@ labels:
 summary: "Learning commands and building PC."
 ---
 
-<img class="img-fluid" src="https://github.com/eisenhoweroallesma/eisenhoweroallesma.github.io/blob/main/img/monitor_and_computer_sketch.png?raw=true">
+<img class="img-fluid" src="../img/dual-monitor-setup-with-pc.avif">
 
 To celebrate my graduation for my high school diploma, I asked my older brother to buy me all the parts in building a PC. If I want to take technology seriously in the future, especially if it benefits my degree and career, I figured that building my own PC was a great start.
 
