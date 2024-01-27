@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/Archery.jpg
+image: img/Archery-image-1.jpg
 title: "Archery"
 date: 2019
 published: true
