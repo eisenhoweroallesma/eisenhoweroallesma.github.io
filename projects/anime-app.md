@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/anime-app.webp
+image: img/anime-app.jpg
 title: "Anime Recommendation App"
 date: 2021
 published: true
