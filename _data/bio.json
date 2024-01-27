@@ -6,7 +6,7 @@
     "email": "eto8@hawaii.edu",
     "phone": "808-319-1743",
     "website": "https://eisenhoweroallesma.github.io/",
-    "summary": "I am studying for a B.A. in Information and Computer Science in the deparment of Information and Computer Science at the University of Hawaii. I expect to graduate in Fall, 2025.",
+    "summary": "Currently studying for my A.S. in Natural Science and B.A. in Information and Computer Science in Leeward and UH Manoa, respectfully. Expected to graduate this Spring, 2023, and next year's Fall, 2025.",
     "location": { "address": "1046 Ehoeho Ave Apt 329", "postalCode": "96786", "city": "Wahiawa", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "eisenhoweroallesma", "url": "https://eisenhoweroallesma.github.io/" },
@@ -25,7 +25,7 @@
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Git/GitHub" ]
+      "keywords": [ "Microsoft Windows", "MacOS", "Git/GitHub" ]
     }
   ],
   "education": [
