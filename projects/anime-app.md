@@ -14,7 +14,7 @@ summary: "An anime recommendation app that I worked on during high school."
 
 <div class="text-center p-4">
   <img width="200px" src="../img/anime-app-2.png" class="img-thumbnail" >
-  <img width="161px" src="../img/unnamed.webp" class="img-thumbnail" >
+  <img width="162px" src="../img/unnamed.webp" class="img-thumbnail" >
 </div>
 
 During highschool, I took AP Computer Science in my Senior year. My friend and I created an app called Anime Recommends. It was a final project for that class, and it was my idea for the topic. As the title implies, it's an app that recommends anime to you. I thought it would seem easy to make because it would suggest making a lot of switches and parameters. It's somewhat similar to other apps that people may know, like Crunchyroll and Funimation, except it was my friend and I's version.
