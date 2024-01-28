@@ -94,22 +94,22 @@
       "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
     },
     {
-      "title": "CO - ICS - Software Developer Specialist",
-      "date": "2023",
-      "awarder": "Leeward Community College",
-      "summary": "Successful completion of program requirements."
-    },
-    {
       "title": "CO - ICS - Basic Logic & Programming Level 1 & 2",
       "date": "2022-2023",
       "awarder": "Leeward Community College",
-      "summary": "Successful completion of program requirements."
+      "summary": "Completion to providing an overview of the fundamentals of computer programming and taking a second semester of computer programming and the mathematics of computer."
+    },
+    {
+      "title": "CO - ICS - Software Developer Specialist",
+      "date": "2023",
+      "awarder": "Leeward Community College",
+      "summary": "Completion in learning how to develop applications in at least two object-oriented languages using data structures, recursions and graphical-user interfaces."
     },
     {
       "title": "ASC - Information & Computer Sciences",
       "date": "2023",
       "awarder": "Leeward Community College",
-      "summary": "Successful completion of program requirements."
+      "summary": "Completion to prepare for B.A. degree program in Information and Computer Science at UH Mānoa."
     },
   ],
   "references": [
