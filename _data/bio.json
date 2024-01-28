@@ -49,8 +49,8 @@
     },
     {
       "institution": "Leilehua High School, Wahiawa, HI",
-      "area": "",
-      "studyType": "High School Diploma",
+      "area": "High School Diploma",
+      "studyType": "",
       "startDate": "2017",
       "endDate": "2021",
       "courses": [
@@ -89,16 +89,28 @@
   "awards": [
     {
       "title": "B+ Scholarship",
-      "date": "2013-Present",
+      "date": "2021-2023",
       "awarder": "State of Hawaii",
       "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
-    }
+      "title": "CO - ICS - Software Developer Specialist",
+      "date": "2023",
+      "awarder": "Leeward Community College",
+      "summary": "Successful completion of program requirements."
+    },
+    {
+      "title": "CO - ICS - Basic Logic & Programming Level 1 & 2",
+      "date": "2022-2023",
+      "awarder": "Leeward Community College",
+      "summary": "Successful completion of program requirements."
+    },
+    {
+      "title": "ASC - Information & Computer Sciences",
+      "date": "2023",
+      "awarder": "Leeward Community College",
+      "summary": "Successful completion of program requirements."
+    },
   ],
   "references": [
     {
