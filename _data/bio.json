@@ -7,7 +7,7 @@
     "phone": "808-319-1743",
     "website": "https://eisenhoweroallesma.github.io/",
     "summary": "Currently studying for my A.S. in Natural Science and B.A. in Information and Computer Science in Leeward and UH Manoa, respectfully. Expected to graduate this Spring, 2023, and next year's Fall, 2025.",
-    "location": { "address": "1046 Ehoeho Ave Apt 329", "postalCode": "96786", "city": "Wahiawa", "countryCode": "USA", "region": "Hawaii" },
+    "location": { "address": "", "postalCode": "96786", "city": "Wahiawa", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "eisenhoweroallesma", "url": "https://eisenhoweroallesma.github.io/" },
       { "network": "linkedin", "username": "eisenhoweroallesma", "url": "https://www.linkedin.com/in/eisen-hower-oallesma-07b730276" }
@@ -33,8 +33,26 @@
       "institution": "University of Hawaii, Honolulu, HI",
       "area": "Information and Computer Science (expected Fall, 2025)",
       "studyType": "B.A.",
-      "startDate": "08-23-2021",
+      "startDate": "2021",
       "endDate": "Present",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "Leeward Community College, Pearlcity, HI",
+      "area": "Natural Science: Information and Computer Science (expected Spring, 2024)",
+      "studyType": "A.S.",
+      "startDate": "2021",
+      "endDate": "Present",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "Leilehua High School, Wahiawa, HI",
+      "area": "High School",
+      "studyType": "High School Diploma",
+      "startDate": "2017",
+      "endDate": "2021",
       "courses": [
       ]
     }
