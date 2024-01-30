@@ -49,7 +49,8 @@
     },
     {
       "institution": "Leilehua High School, Wahiawa, HI",
-      "area": "High School Diploma",
+      "area": "",
+      "studyType": "",
       "startDate": "2017",
       "endDate": "2021",
       "courses": [
