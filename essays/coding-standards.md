@@ -12,10 +12,9 @@ labels:
   - Javascript
 ---
 
-<div class="text-center p-4">
   <img width="200px" src="../img/eslint-img.png" >
   <img width="200px" src="../img/intellij-img.png" >
-</div>
+
 
 ## Experiencing IntelliJ and ESLint for the first time
 
