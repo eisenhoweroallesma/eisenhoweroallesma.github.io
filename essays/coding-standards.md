@@ -12,7 +12,7 @@ labels:
   - Javascript
 ---
 
-<div class="text-center p-10">
+<div class="text-center p-100">
   <img width="200px" src="../img/eslint-img.png" >
   <img width="200px" src="../img/intellij-img.png" >
 </div>
