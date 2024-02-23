@@ -11,7 +11,7 @@ labels:
   - Bootstrap 5
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/html-css-bootstrap.jpg">
+<img width="400px" class="rounded float-start pe-4" src="../img/html-css-bootstrap.jpg">
 
 Learning UI frameworks for the first time was a whole new direction for me after we did many assignments on JavaScript. It wasn’t too complicated or confusing. It was more that I started to enjoy learning how to use it because we were getting started on making web pages. I know it was something that could really benefit me in the future. The programming language was for me.
 
