@@ -22,8 +22,8 @@ The rise and impact of AI or Artificial Intelligence has revolutionized the curr
 ### II. Personal Experience with AI:
 I have used AI in class this semester in the following areas:
 
-  1. Experience WODs e.g. E18
-
+  1. Experience WODs e.g. E18: At the beginning of the semester, I did not use ChatGPT because I had knowledge from previous classes that I used to do in these WODs. But as soon as the assignments got harder, it was difficult for me to understand my mistakes and I had to use ChatGPT. I used no other than ChatGPT because that is the only AI website that I know of.
+Initially, I did not use ChatGPT atbecause I had done these assignments previously in previous classes. But as soon as the assignments got harder, it was difficult for me to understand my mistakes, and I had to use ChatGPT. My only experience with AI is through ChatGPT since it's the only AI website I know.
   2. In-class Practice WODs
 
   3. In-class WODs
