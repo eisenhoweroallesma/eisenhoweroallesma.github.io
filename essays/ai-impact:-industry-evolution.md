@@ -13,7 +13,7 @@ labels:
 ---
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/eslint-img.png" >
+  <img width="200px" src="../img/chatgpt-image.jpeg" >
 </div>
 
 
