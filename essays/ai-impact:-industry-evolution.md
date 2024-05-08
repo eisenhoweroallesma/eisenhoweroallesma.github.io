@@ -17,9 +17,11 @@ labels:
 </div>
 
 ### I. Introduction
+
 The rise and impact of AI or Artificial Intelligence has revolutionized the current state of the world. Its movement since 2022 has popularized the internet for reshaping the learning process, enhancing technology, and enabling fathomless insight into using tools across all open sources of the internet. Given this topic, I want to share my experience through the semester of ICS 314 and how it helped me view the aspects of using AI.
 
 ### II. Personal Experience with AI:
+
 I have used AI in class this semester in the following areas:
 
   1. Experience WODs e.g. E18:
@@ -81,18 +83,24 @@ I have used AI in class this semester in the following areas:
 
 ### III. Impact on Learning and Understanding:
 
-
+AI is an incredible tool to use, but at what cost? Throughout my whole semester, AI has butchered my learning ability and understanding of the lessons that were taught. Although it was a helping hand and I appreciate the help, I am more disappointed in myself. But what I took from this learning is that AI has grown into me and it has given me a skill to use on the side if I need help.
 
 ### IV. Practical Applications:
 
+Putting AI in a practical application says that it has brought into a new level of the educational system. Although from what it seems, it has majorly impacted the whole world into using AI, as from what I have seen in many media. Not only does it affect the computer world, but in many physical states that humans can build. The perfection of using facial recognition is astonishing but frightening. For one example, there have been many instances in which fraudulent images have gone viral across the internet. One can easily alter and manipulate to generate images that were before non-existent. Recently, AI images of celebrities, Katy Perry and Rhianna, went viral on social media implying that they had attended the Met Gala.
 
 ### V. Challenges and Opportunities:
 
+In the many trials of using ChatGPT, I have encountered many false answers to be received. There is so much information on the internet. Too many to find what is exactly correct and what is the one to be true. And I believe that AI cannot find what is real. I don't believe AI can't be stopped as it progresses tremendously in this modern world. Students who use AI will grow to find facts to be unreal and fake.
 
 ### VI. Comparative Analysis:
 
+AI-enhanced techniques are transforming how software engineering is taught, customizing the learning experience to fit each student's strengths and weaknesses, adapting to different ways of learning, and giving immediate feedback on coding tasks. These methods engage students with interactive tools like gamified platforms and virtual reality simulations, resulting in better understanding and memory retention.
 
 ### VII. Future Considerations:
 
+The state of AI right now, it's a great start with a lot of issues, but in the future, it will be promising and I can imagine the learning and education system to change. But we should be mindful to not fully trust and rely on AI as it might come with several disadvantages.
 
 ### VIII. Conclusion:
+
+In conclusion, my encounter with AI throughout my ICS 314 journey has been profound, learning the capabilities and implications of using this technology. Recognizing both its advantages and disadvantages has not only improved my experience in the course but also equipped me with insights applicable beyond the classroom. The diverse impact of AI extends far beyond academic settings, highlighting the need for a subtle understanding and thoughtful integration to navigate its complexities responsibly in real-world contexts
