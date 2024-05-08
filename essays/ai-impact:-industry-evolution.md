@@ -106,5 +106,5 @@ The state of AI right now, it's a great start with a lot of issues, but in the f
 In conclusion, my encounter with AI throughout my ICS 314 journey has been profound, learning the capabilities and implications of using this technology. Recognizing both its advantages and disadvantages has not only improved my experience in the course but also equipped me with insights applicable beyond the classroom. The diverse impact of AI extends far beyond academic settings, highlighting the need for a subtle understanding and thoughtful integration to navigate its complexities responsibly in real-world contexts
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/chatgpt-image(1).jpg" >
+  <img width="300px" src="../img/chatgpt-image(1).jpg" >
 </div>
