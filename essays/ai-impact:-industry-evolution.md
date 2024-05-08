@@ -22,33 +22,33 @@ The rise and impact of AI or Artificial Intelligence has revolutionized the curr
 ### II. Personal Experience with AI:
 I have used AI in class this semester in the following areas:
 
-  1. Experience WODs e.g. E18: At the beginning of the semester, I did not use ChatGPT because I had knowledge from previous classes that I used to do in these WODs. But as soon as the assignments got harder, it was difficult for me to understand my mistakes and I had to use ChatGPT. I used no other than ChatGPT because that is the only AI website that I know of.
-Initially, I did not use ChatGPT atbecause I had done these assignments previously in previous classes. But as soon as the assignments got harder, it was difficult for me to understand my mistakes, and I had to use ChatGPT. My only experience with AI is through ChatGPT since it's the only AI website I know.
-  2. In-class Practice WODs
+  1. Experience WODs e.g. E18: At the beginning of the semester, I didn't use any AI or open-source intelligence websites because I already knew how to do some of the WODs from previous classes. But as soon as the assignments got harder, it was difficult for me to understand my mistakes, and I had to use ChatGPT. I've only used ChatGPT throughout the whole semester.
+    
+  2. In-class Practice WODs: I used ChatGPT for some in-class practice WODs, but there were some that I didn't have to because there were assignments that were very similar to the WODs. I took this opportunity as an advantage to prepare what to expect for the real WODs on the upcoming day.
 
-  3. In-class WODs
+  3. In-class WODs: 
 
-  4. Essays
+  5. Essays
 
-  5. Final project
+  6. Final project
 
-  6. Learning a concept / tutorial
+  7. Learning a concept / tutorial
 
-  7. Answering a question in class or in Discord
+  8. Answering a question in class or in Discord
 
-  8. Asking or answering a smart-question
+  9. Asking or answering a smart-question
 
-  9. Coding example e.g. “give an example of using Underscore .pluck”
+  10. Coding example e.g. “give an example of using Underscore .pluck”
 
-  10. Explaining code
+  11. Explaining code
 
-  11. Writing code
+  12. Writing code
 
-  12. Documenting code
+  13. Documenting code
 
-  13. Quality assurance 
+  14. Quality assurance 
 
-  14. Other uses in ICS 314 not listed above
+  15. Other uses in ICS 314 not listed above
 
 
 ### III. Impact on Learning and Understanding:
