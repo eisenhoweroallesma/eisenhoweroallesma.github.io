@@ -26,32 +26,33 @@ I have used AI in class this semester in the following areas:
     
   2. In-class Practice WODs: I used ChatGPT for some in-class practice WODs, but there were some that I didn't have to because there were assignments that were very similar to the WODs. I took this opportunity as an advantage to prepare what to expect for the real WODs on the upcoming day.
 
-  3. In-class WODs: 
+  3. In-class WODs: In most cases, I used ChatGPT towards the middle and the end of the semester. When we started working on websites using React and Meteor, I needed assistance in making the pages and tabs. Compared to the practice WODs, there's always a bit more spice to them. 
 
-  5. Essays
+  4. Essays: I have never used AI in my essays. I write essays with my own thoughts and personal feelings. I don't need AI to assist me with essays.
 
-  6. Final project
+  5. Final project: ChatGPT has helped me through all three milestones. With the help of AI, our website would haven't looked better than before. Functioning than before, and I am proud of using AI.
 
-  7. Learning a concept / tutorial
+  6. Learning a concept / tutorial: Since I got used to using ChatGPT, I felt that any questions I had in ICS 314 were answered in ChatGPT. It was easier and faster to get the information I wanted.
 
-  8. Answering a question in class or in Discord
+  7. Answering a question in class or in Discord: Ironically, I'm always the one who ask the questions in discord and I hope for an answer. And I ask the questions because sometimes ChatGPT failed to understand and answer the questions I was asking.
 
-  9. Asking or answering a smart-question
+  8. Asking or answering a smart-question: I wasn't participating in the helping but more of asking for help. I don't ask a smart-question because I was more straightforward with my question. I didn't use AI to help me create a smart question.
 
-  10. Coding example e.g. “give an example of using Underscore .pluck”
+  9. Coding example e.g. “give an example of using Underscore .pluck”: There were instructions given to me by the professor that I did not need to ask AI to give me an example of a code. The instructions provided an example for me in which I understood immediately on how to use the code for my program.
 
-  11. Explaining code
+  10. Explaining code: I believe that the only time I would use AI to explain my code is when I have to comment in my program.
+      
+  11. Writing code: I mentioned that I used ChatGPT to make pages and tabs for my website, but that is only specific parts of the program and not whole.
 
-  12. Writing code
+  12. Documenting code: I did not used ChatGPT to write documentation codes this semester.
 
-  13. Documenting code
-
-  14. Quality assurance 
-
-  15. Other uses in ICS 314 not listed above
+  13. Quality assurance: As for quality assurance, I can rely that on ESLint errors to inspect my code and I can fix the issue from there. 
+      
+  14. Other uses in ICS 314 not listed above: None.
 
 
 ### III. Impact on Learning and Understanding:
+
 
 
 ### IV. Practical Applications:
