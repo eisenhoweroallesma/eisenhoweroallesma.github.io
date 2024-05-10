@@ -28,4 +28,4 @@ I have journeyed through experiences with many different types of UI frameworks
 
 ## Final Thoughts
 
-In summary, my journey through ICS 314 has come to an end, but it has also been enlightening, offered with many profound insights into the world of software engineering.
+In summary, my journey through ICS 314 has come to an end, but it has also been enlightening and offered many profound insights into the world of software engineering. From the importance of adhering to coding standards and ensuring clarity and consistency in our codebase to the exploration of UI frameworks like Bootstrap 5, React, and Meteor, each lesson has given me a great understanding of the field. I am grateful for the opportunity in this course to search deeper into the complexities of software engineering, and I can see myself applying these learnings in my future endeavors.
