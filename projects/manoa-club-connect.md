@@ -34,10 +34,17 @@ There are many but minor other tasks from behind the work. Just a few tweaks and
 Here is some of the works that my classmates have worked on:
 
 <div class="text-center p-4">
-  <img width="300px" src="../img/club-connect-image.png" class="img-thumbnail" >
-  <img width="300px" src="../img/club-connect-image(1).png" class="img-thumbnail" >
+  <img width="400px" src="../img/club-connect-image(3).png" class="img-thumbnail" >
+  <img width="400px" src="../img/club-connect-image(1).png" class="img-thumbnail" >
+</div>
+
+And here is one of my work that I did:
+
+<div class="text-center p-4">
+  <img width="400px" src="../img/club-connect-image(2).png" class="img-thumbnail" >
 </div>
 
 ## Lessons Learned
+
 
 
