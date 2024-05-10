@@ -46,5 +46,6 @@ And here is one of my work that I did:
 
 ## Lessons Learned
 
+This project has provided me a valuable insight into what it's like to work with other colleagues on a website. I can see myself in the future working more applications with other people as I am to achieve the kind of job that I want to work for. I believe I have grown the skills to use certain types of UI frameworks and more JavaScript languages. I know now what it feels to face challenges and what to look forward in more projects. I wish I could of done more on the website if I had more time and ideas to add.
 
 
