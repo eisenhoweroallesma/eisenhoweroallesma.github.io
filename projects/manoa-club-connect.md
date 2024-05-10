@@ -6,7 +6,9 @@ title: "Building my own PC"
 date: 2021
 published: true
 labels:
-  - Computer
-  - Learning experience
-summary: "Understanding why I wanted to build a PC."
+  - Wep Application
+  - Meteor
+  - Teamwork
+summary: "A group of 5 students created a school website about finding clubs for anyone."
 ---
+
