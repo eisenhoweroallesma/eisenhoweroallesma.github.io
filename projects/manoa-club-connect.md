@@ -27,9 +27,11 @@ My contribution to the project were:
 * Sign-out page
 * Club list page, 
 * Club collection
-* Creating the superadmin page along with the access to the page. 
+* Creating the superadmin page along with the access to the page.
 
 There are many but minor other tasks from behind the work. Just a few tweaks and minor adjustments are required because tiny codes can have an impact on other programs.
+
+
 
 ## Lessons Learned
 
