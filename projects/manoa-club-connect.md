@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/monitor_and_computer_sketch.png
+image: img/club-connect-logo.png
 title: "Building my own PC"
 date: 2021
 published: true
