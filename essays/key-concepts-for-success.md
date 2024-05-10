@@ -12,7 +12,9 @@ labels:
   - Coding Standards
 ---
 
-<img width="500px" class="rounded float-start pe-4" src="../img/html-css-bootstrap.jpg">
+<div class="text-center p-4">
+  <img width="400px" src="../img/software-engineering-image.jpeg" >
+</div>
 
 ## Semester Review
 
@@ -21,6 +23,10 @@ Having just completed ICS 314, I want to share what I learned about software eng
 ## Standards are Necessary
 
 Coding Standards are a priority when it comes to programming. They are the rules of the path for developers, which help guide us through the twists and turns of software creation. From formatting our codes to naming conventions, they help everyone ensure we speak the same language and maintain clarity in our codes. Comments and documentation are somewhat the tables of contents of a book. It's very effective for developers to see through the complexities of their creations. In my experience, I use comments and documentation because I write a lot of pages and lines of code. As software engineers, computer scientists, etc., these standards aren't just about syntax but are more like a culture.
+
+<div class="text-center p-4">
+  <img width="300px" src="../img/software-engineering-image(1).jpeg" >
+</div>
 
 ## Designing User Experiences
 
