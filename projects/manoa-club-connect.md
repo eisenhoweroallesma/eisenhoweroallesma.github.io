@@ -31,7 +31,12 @@ My contribution to the project were:
 
 There are many but minor other tasks from behind the work. Just a few tweaks and minor adjustments are required because tiny codes can have an impact on other programs.
 
+Here is some of the works that my classmates have worked on:
 
+<div class="text-center p-4">
+  <img width="300px" src="../img/club-connect-image.png" class="img-thumbnail" >
+  <img width="300px" src="../img/club-connect-image(1).png" class="img-thumbnail" >
+</div>
 
 ## Lessons Learned
 
