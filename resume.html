@@ -12,7 +12,7 @@ layout: home
       </div>
     </div>
 
-    <div class="row align-items-start">
+    <div class="row align-items-center">
       <div class="col-6">
         {% capture url %}{{ site.data.bio.basics.website }}{% endcapture %}
         {% capture label %}{{ site.data.bio.basics.website | remove: "http://" | remove: "https://" }}{% endcapture %}
@@ -29,6 +29,11 @@ layout: home
           <div class="mb-1">{% include about/social.html url=url name=name label=label %}</div>
         {% endfor %}
       </div>
+      <div class="col-6 text-end">
+        <p class="m-0">{{ site.data.bio.basics.location.city }}, {{ site.data.bio.basics.location.region }} {{ site.data.bio.basics.location.postalCode }}</p>
+        <p class="m-0">{{ site.data.bio.basics.phone }}</p>
+      </div>
+    </div>
       <div class="col-6 text-end">
         {% if site.data.bio.basics.location.address and site.data.bio.basics.location.address != '' %}
           <p class="m-0">{{ site.data.bio.basics.location.address }}</p>
