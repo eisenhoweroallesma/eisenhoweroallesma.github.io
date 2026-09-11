@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/club-connect-logo.png
 title: "Manoa Club Connect"
-date: 2021
+date: 2024
 published: true
 labels:
   - Wep Application
