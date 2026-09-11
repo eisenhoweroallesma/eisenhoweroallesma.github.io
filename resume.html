@@ -1,6 +1,6 @@
 ---
 title: Resume
-layout: home
+layout: default
 ---
 
 <div style="background-color: var(--tf-page-bg-color)" class="bg-gradient py-3">
@@ -43,10 +43,6 @@ layout: home
         <p class="mb-1">{{ site.data.bio.basics.phone }}</p>
       </div>
     </div>
-        <p class="mb-1 text-end">{{ site.data.bio.basics.location.city }}, {{ site.data.bio.basics.location.region }} {{ site.data.bio.basics.location.postalCode }}</p>
-        <p class="mb-1 text-end">{{ site.data.bio.basics.phone }}</p>
-      </div>
-    </div>
 
     <div class="row pt-4 align-items-center">
       <div class="col-lg-3">
@@ -56,7 +52,6 @@ layout: home
         <p class="m-0">
           {% for entry in site.data.bio.interests %}
           {{ entry.name }}
-          <!-- Unfortunately the following must all be on a single line so that there are no spaces before the commas. -->
           {% if entry.keywords and entry.keywords.size > 0 %}({% for keyword in entry.keywords %}{{ keyword }}{% if forloop.last != true %},{% endif %}{% endfor %}){% endif %}{% if forloop.last != true %}, {% endif %}
           {% endfor %}
         </p>
@@ -253,6 +248,6 @@ layout: home
       </div>
     </div>
     {% endif %}
-    
+
   </div>
 </div>
