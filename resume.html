@@ -6,10 +6,15 @@ layout: home
 <div style="background-color: var(--tf-page-bg-color)" class="bg-gradient py-3">
   <div class="container">
 
+    <!-- Name Row -->
     <div class="row">
       <div class="col">
         <h1 class="display-4 text-center">{{ site.data.bio.basics.name }}</h1>
-      <div class="row align-items-start">
+      </div>
+    </div>
+
+    <!-- Contact Info Row -->
+    <div class="row align-items-start">
       <div class="col-6">
         <!-- 1. Email -->
         {% capture url %}mailto:{{ site.data.bio.basics.email }}{% endcapture %}
