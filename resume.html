@@ -12,34 +12,29 @@ layout: home
       </div>
     </div>
 
-    <div class="row align-items-center">
-      <div class="col-6">
+    <div class="row align-items-start">
+      <div class="col">
         {% capture url %}{{ site.data.bio.basics.website }}{% endcapture %}
         {% capture label %}{{ site.data.bio.basics.website | remove: "http://" | remove: "https://" }}{% endcapture %}
-        <div class="mb-1">{% include about/social.html url=url name='house' label=label %}</div>
+        <p class="mb-1">{% include about/social.html url=url name='house' label=label %} </p>
 
         {% capture url %}mailto:{{ site.data.bio.basics.email }}{% endcapture %}
         {% capture label %}{{ site.data.bio.basics.email }}{% endcapture %}
-        <div class="mb-1">{% include about/social.html url=url name='envelope' label=label %}</div>
+        <p class="mb-1">{% include about/social.html url=url name='envelope' label=label %}</p>
 
         {% for profile in site.data.bio.basics.profiles %}
           {% capture url %}{{ profile.url }}{% endcapture %}
           {% capture name %}{{ profile.network | downcase }}{% endcapture %}
           {% capture label %}{{ profile.username }}{% endcapture %}
-          <div class="mb-1">{% include about/social.html url=url name=name label=label %}</div>
+          <p class="mb-1">{% include about/social.html url=url name=name label=label %}</p>
         {% endfor %}
       </div>
-      <div class="col-6 text-end">
-        <p class="m-0">{{ site.data.bio.basics.location.city }}, {{ site.data.bio.basics.location.region }} {{ site.data.bio.basics.location.postalCode }}</p>
-        <p class="m-0">{{ site.data.bio.basics.phone }}</p>
-      </div>
-    </div>
-      <div class="col-6 text-end">
+      <div class="col">
         {% if site.data.bio.basics.location.address and site.data.bio.basics.location.address != '' %}
-          <p class="m-0">{{ site.data.bio.basics.location.address }}</p>
+          <p class="mb-1 text-end">{{ site.data.bio.basics.location.address }}</p>
         {% endif %}
-        <p class="m-0">{{ site.data.bio.basics.location.city }}, {{ site.data.bio.basics.location.region }} {{ site.data.bio.basics.location.postalCode }}</p>
-        <p class="m-0">{{ site.data.bio.basics.phone }}</p>
+        <p class="mb-1 text-end">{{ site.data.bio.basics.location.city }}, {{ site.data.bio.basics.location.region }} {{ site.data.bio.basics.location.postalCode }}</p>
+        <p class="mb-1 text-end">{{ site.data.bio.basics.phone }}</p>
       </div>
     </div>
 
