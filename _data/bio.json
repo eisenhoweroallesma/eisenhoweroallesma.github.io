@@ -1,14 +1,14 @@
 {
   "basics": {
     "name": "Eisen Hower Oallesma",
-    "label": "IT Support Specialist",
+    "label": "",
     "picture": "https://avatars.githubusercontent.com/u/157007056?s=400&u=32841c45262cc9828c1f3cec333b29b15a20596d&v=4",
     "email": "etoallesma808@gmail.com",
-    "phone": "808-319-1743",
+    "phone": "(808)-319-1743",
     "summary": "Graduate with a B.A. in Information and Computer Science from the University of Hawaiʻi at Mānoa specializing in desktop support, system administration, and technical troubleshooting.",
     "website": "https://eisenhoweroallesma.github.io/",
     "location": {
-      "address": "",
+      "address": "1046 Ehoeho Ave Apt 329",
       "postalCode": "96786",
       "city": "Wahiawa",
       "countryCode": "",
@@ -17,7 +17,7 @@
     "profiles": [
       {
         "network": "linkedin",
-        "username": "eisen-hower-oallesma",
+        "username": "https://www.linkedin.com/in/eisen-hower-oallesma-07b730276",
         "url": "https://www.linkedin.com/in/eisen-hower-oallesma-07b730276"
       }
     ]
