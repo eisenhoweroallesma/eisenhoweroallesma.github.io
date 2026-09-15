@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Eisen Hower Oallesma",
-    "label": "IT Support Specialist / Help Desk Technician",
+    "label": "",
     "picture": "https://avatars.githubusercontent.com/u/157007056?s=400&u=32841c45262cc9828c1f3cec333b29b15a20596d&v=4",
     "email": "etoallesma808@gmail.com",
     "phone": "808-319-1743",
-    "summary": "Detail-oriented Information and Computer Science graduate with hands-on expertise in hardware assembly, network troubleshooting, Linux/Windows administration, and end-user support. Proven customer service track record delivering fast, accurate troubleshooting and issue resolution in fast-paced environments.",
+    "summary": "Detail-oriented recent graduate with a B.A. in Information and Computer Science from UH Manoa, seeking an entry-level position as a Software Engineer, IT Support Specialist, or Database Administrator. Proficient in Java, Python, C/C++, and SQL, with strong expertise in software development methodologies, database system design, and collaborative project management.",
     "website": "https://eisenhoweroallesma.github.io/",
     "location": {
       "address": "1046 Ehoeho Ave Apt 329",
@@ -24,16 +24,8 @@
   },
   "skills": [
     {
-      "name": "Systems & Operating Systems",
-      "keywords": [ "Windows OS", "Linux", "MacOS", "PC Assembly/Disassembly", "Hardware Diagnostics" ]
-    },
-    {
-      "name": "Networking & Troubleshooting",
-      "keywords": [ "Network Troubleshooting", "TCP/IP Basics", "System Diagnostics", "Technical Support" ]
-    },
-    {
-      "name": "Programming & Databases",
-      "keywords": [ "Java", "Python", "C/C++", "SQL", "HTML/CSS/JS", "Git/GitHub", "IntelliJ" ]
+      "name": "Technical Skills",
+      "keywords": [ "Java", "Python", "C / C++", "SQL", "HTML/CSS/JS", "Git/GitHub", "Linux", "IntelliJ", "PC Assembly/Disassembly", "Network Troubleshooting" ]
     },
     {
       "name": "Languages",
@@ -48,8 +40,8 @@
       "startDate": "Aug 2021",
       "endDate": "May 2026",
       "courses": [
-        "Operating Systems",
         "Database Systems",
+        "Operating Systems",
         "Algorithms",
         "Software Engineering",
         "Machine-Level & Systems Programming"
@@ -73,9 +65,9 @@
       "endDate": "May 2026",
       "summary": "",
       "highlights": [
-        "Deliver professional customer service by greeting guests, managing ticket flow, and resolving immediate service inquiries efficiently.",
-        "Assist staff during peak operations by coordinating beverage orders and optimizing seating rotation during high-volume periods.",
-        "Ensure full regulatory compliance by completing routine safety audits, sanitation checks, and detailed operational logs."
+        "Provide hospitality service by greeting guests warmly and ensuring their needs are met to provide a pleasant atmosphere for all customers.",
+        "Assist the server staff by expediting beverage orders and helping with table turnover to provide efficient dining service during rush hours.",
+        "Maintain high standards of sanitation by performing hourly safety checks and ensuring that logs and supplies are up-to-date and compliant with regulations."
       ]
     },
     {
@@ -86,28 +78,28 @@
       "endDate": "May 2023",
       "summary": "",
       "highlights": [
-        "Multitasked effectively across point-of-sale (POS) terminal order management, customer requests, and facility maintenance.",
-        "Managed inventory shipment processing, auditing supply lists against deliveries and organizing stock for immediate operational readiness.",
-        "Handled front-counter and drive-thru order presentation with high attention to detail during peak volume hours."
+        "Ensure a clean and efficient working environment while multitasking between order preparation, facility cleaning, and proactive restocking duties.",
+        "Completed inventory logistics duties such as receiving shipments, checking supply lists, and organizing heavy inventory to ensure availability for immediate use.",
+        "Handled order presentation for drive-thru and register, accurately processing complex order customizations and beverage preparing during rush hours."
       ]
     }
   ],
   "awards": [
     {
       "title": "Software Developer Specialist (SDSP)",
-      "date": "2023",
+      "date": "",
       "awarder": "Leeward Community College",
       "summary": ""
     },
     {
       "title": "Basic Logic & Programming (Lvl 1 & 2)",
-      "date": "2022-2023",
+      "date": "",
       "awarder": "Leeward Community College",
       "summary": ""
     },
     {
       "title": "Academic Subject Certificate in ICS",
-      "date": "2023",
+      "date": "",
       "awarder": "Leeward Community College",
       "summary": ""
     }
