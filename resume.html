@@ -13,7 +13,7 @@ layout: default
       </div>
     </div>
 
-    <!-- Updated Contact Info Row -->
+    <!-- Contact Info Row -->
     <div class="row mb-4">
       <div class="col-12 text-center">
         <p class="mb-1">
@@ -28,12 +28,13 @@ layout: default
             <a href="{{ site.data.bio.basics.website }}" target="_blank">GitHub Portfolio</a>
           {% endif %}
           {% for profile in site.data.bio.basics.profiles %}
-            | <a href="{{ profile.url }}" target="_blank">{{ profile.network }} Profile</a>
+            | <a href="{{ profile.url }}" target="_blank">LinkedIn Profile</a>
           {% endfor %}
         </p>
       </div>
     </div>
 
+    <!-- Skills Section -->
     {% if site.data.bio.skills %}
     <div class="row pt-4 align-items-center">
       <div class="col-lg-3">
@@ -52,6 +53,7 @@ layout: default
     </div>
     {% endif %}
 
+    <!-- Education Section -->
     {% if site.data.bio.education %}
     <div class="row pt-4 align-items-start">
       <div class="col-lg-3">
@@ -59,6 +61,7 @@ layout: default
       </div>
       <div class="col-lg-9">
         {% for entry in site.data.bio.education %}
+          {% unless entry.institution contains "High School" %}
           <div class="row mb-3">
             <div class="col-9">
               <p class="m-0"><b>{{ entry.institution }}</b></p>
@@ -71,29 +74,31 @@ layout: default
                 </ul>
               {% endif %}
             </div>
-          <div class="col-3">
-            <p class="m-0 text-end">
-              {% if entry.startDate %}
-                {{ entry.startDate | slice: 0,4 }}
-              {% endif %}
-              {% if entry.startDate and entry.startDate != '' and entry.endDate and entry.endDate != '' %}
-              -
-              {% endif %}
-              {% if entry.endDate %}
-                {% if entry.endDate != "Present" %}
-                  {{ entry.endDate | slice: 0,4 }}
-                {% else %}
-                  {{ entry.endDate }}
+            <div class="col-3">
+              <p class="m-0 text-end">
+                {% if entry.startDate %}
+                  {{ entry.startDate | slice: 0,4 }}
                 {% endif %}
-              {% endif %}
-            </p>
+                {% if entry.startDate and entry.startDate != '' and entry.endDate and entry.endDate != '' %}
+                -
+                {% endif %}
+                {% if entry.endDate %}
+                  {% if entry.endDate != "Present" %}
+                    {{ entry.endDate | slice: 0,4 }}
+                  {% else %}
+                    {{ entry.endDate }}
+                  {% endif %}
+                {% endif %}
+              </p>
+            </div>
           </div>
-        </div>
+          {% endunless %}
         {% endfor %}
       </div>
     </div>
     {% endif %}
 
+    <!-- Work Section -->
     {% if site.data.bio.work %}
     <div class="row pt-4 align-items-start">
       <div class="col-lg-3">
@@ -104,9 +109,6 @@ layout: default
           <div class="row mb-3">
             <div class="col-9">
               <p class="mb-0"><b>{{ entry.position }}, {{ entry.company }}</b></p>
-              {% if entry.website %}
-                <p class="mb-0"><a href="{{ entry.website }}" target="_blank">{{ entry.website | remove: "http://" | remove: "https://" }}</a></p>
-              {% endif %}
               <p class="mb-0">{{ entry.summary }}</p>
               {% if entry.highlights %}
                 <ul>
@@ -139,6 +141,7 @@ layout: default
     </div>
     {% endif %}
 
+    <!-- Activities / Volunteer Section -->
     {% if site.data.bio.volunteer %}
       <div class="row pt-4 align-items-start">
         <div class="col-lg-3">
@@ -149,9 +152,6 @@ layout: default
           <div class="row mb-3">
             <div class="col-9">
               <p class="mb-0"><b>{{ entry.position }}{% if entry.organization %}, {{ entry.organization }}{% endif %}</b></p>
-              {% if entry.website %}
-                <p class="mb-0"><a href="{{ entry.website }}" target="_blank">{{ entry.website | remove: "http://" | remove: "https://" }}</a></p>
-              {% endif %}
               <p class="mb-0">{{ entry.summary }}</p>
               {% if entry.highlights %}
                 <ul>
@@ -184,6 +184,7 @@ layout: default
       </div>
     {% endif %}
 
+    <!-- Awards Section -->
     {% if site.data.bio.awards %}
     <div class="row pt-4 align-items-start">
       <div class="col-lg-3">
@@ -212,3 +213,4 @@ layout: default
 
   </div>
 </div>
+
