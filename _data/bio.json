@@ -5,10 +5,10 @@
     "picture": "https://avatars.githubusercontent.com/u/157007056?s=400&u=32841c45262cc9828c1f3cec333b29b15a20596d&v=4",
     "email": "etoallesma808@gmail.com",
     "phone": "(808)-319-1743",
-    "summary": "Graduate with a B.A. in Information and Computer Science from the University of Hawaiʻi at Mānoa specializing in desktop support, system administration, and technical troubleshooting.",
+    "summary": "Graduate with a B.A. in Information and Computer Science specializing in desktop support, system administration, and technical troubleshooting.",
     "website": "https://eisenhoweroallesma.github.io/",
     "location": {
-      "address": "1046 Ehoeho Ave Apt 329",
+      "address": "",
       "postalCode": "96786",
       "city": "Wahiawa",
       "countryCode": "",
@@ -16,21 +16,16 @@
     },
     "profiles": [
       {
-        "network": "linkedin",
-        "username": "https://www.linkedin.com/in/eisen-hower-oallesma-07b730276",
+        "network": "LinkedIn",
+        "username": "eisen-hower-oallesma-07b730276",
         "url": "https://www.linkedin.com/in/eisen-hower-oallesma-07b730276"
       }
     ]
   },
-  "interests": [
-    { "name": "Software Engineering" },
-    { "name": "Computer Science" },
-    { "name": "Web Development" }
-  ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C/C++", "Java", "Javascript" ]
+      "keywords": [ "C/C++", "Java", "JavaScript" ]
     },
     {
       "name": "Toolsets/OS",
@@ -40,58 +35,47 @@
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Information and Computer Science (expected Fall, 2025)",
+      "area": "Information and Computer Science",
       "studyType": "B.A.",
       "startDate": "2021",
-      "endDate": "Present",
-      "courses": [
-      ]
+      "endDate": "2025",
+      "courses": []
     },
     {
-      "institution": "Leeward Community College, Pearlcity, HI",
-      "area": "Natural Science: Information and Computer Science (expected Spring, 2024)",
+      "institution": "Leeward Community College, Pearl City, HI",
+      "area": "Natural Science: Information and Computer Science",
       "studyType": "A.S.",
       "startDate": "2021",
-      "endDate": "Present",
-      "courses": [
-      ]
-    },
-    {
-      "institution": "Leilehua High School, Wahiawa, HI",
-      "area": "",
-      "studyType": "High School Diploma",
-      "startDate": "2017",
-      "endDate": "2021",
-      "courses": [
-      ]
+      "endDate": "2024",
+      "courses": []
     }
   ],
   "work": [
     {
       "company": "Zippy's Mililani",
       "position": "Host",
-      "website": "https://www.zippys.com",
+      "website": "",
       "startDate": "2023",
       "endDate": "Present",
       "summary": "",
       "highlights": [
-        "Greet customers with a warm welcome, serving drinks and providing menus.",
-        "Bust tables and polishing for customers to use.",
-        "Take orders for takeout."
+        "Greeted customers promptly, served beverages, and distributed menus.",
+        "Bussed tables and sanitized dining areas for incoming guests.",
+        "Processed takeout orders accurately through the POS system."
       ]
     },
     {
       "company": "McDonald's",
       "position": "Crew Member",
-      "website": "https://www.mcdonalds.com/us/en-us.html",
+      "website": "",
       "startDate": "2022",
       "endDate": "2023",
       "summary": "",
       "highlights": [
-        "Took orders, prepared meals and collected payments.",
-        "Kepts food preparation area, equipment and utensils clean and sanitary.",
-        "Provided excellent customer service by greeting customers and meeting quality expectations",
-        "Handled deliveries (Lifted boxes, stocked them in their need-to-be location, checked items that are needed from the list and prepared items for future needs.)"
+        "Processed customer orders and payments accurately while maintaining efficient meal assembly.",
+        "Kept food preparation areas, equipment, and utensils sanitized according to safety standards.",
+        "Maintained high customer service standards during peak operating hours.",
+        "Handled inventory shipments, stocking supplies in designated areas and preparing materials for daily operations."
       ]
     }
   ],
@@ -106,24 +90,19 @@
       "title": "CO - ICS - Basic Logic & Programming Level 1 & 2",
       "date": "2022-2023",
       "awarder": "Leeward Community College",
-      "summary": "Completion to providing an overview of the fundamentals of computer programming and taking a second semester of computer programming and the mathematics of computer."
+      "summary": "Completion providing an overview of the fundamentals of computer programming, advanced programming concepts, and discrete mathematics."
     },
     {
       "title": "CO - ICS - Software Developer Specialist",
       "date": "2023",
       "awarder": "Leeward Community College",
-      "summary": "Completion in learning how to develop applications in at least two object-oriented languages using data structures, recursions and graphical-user interfaces."
+      "summary": "Certificate focusing on application development in object-oriented languages using data structures, recursion, and graphical user interfaces."
     },
     {
       "title": "ASC - Information & Computer Sciences",
       "date": "2023",
       "awarder": "Leeward Community College",
-      "summary": "Completion to prepare for B.A. degree program in Information and Computer Science at UH Mānoa."
-    },
-  ],
-  "references": [
-    {
-      "name": "Available upon request"
+      "summary": "Academic Subject Certificate preparing for the B.A. degree program in Information and Computer Science at UH Mānoa."
     }
   ]
 }
