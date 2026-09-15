@@ -6,21 +6,28 @@ layout: default
 <div style="background-color: var(--tf-page-bg-color)" class="bg-gradient py-3">
   <div class="container">
 
-    <!-- Name Row -->
-    <div class="row mb-2">
-      <div class="col">
-        <h1 class="display-4 text-center">{{ site.data.bio.basics.name }}</h1>
+    <!-- Top Navigation Header -->
+    <div class="d-flex justify-content-between align-items-center mb-4 pb-2 border-bottom">
+      <div>
+        <a href="{{ '/' | relative_url }}" class="text-decoration-none text-dark fs-5 fw-normal">
+          {{ site.data.bio.basics.name }}
+        </a>
+      </div>
+      <div>
+        <a href="{{ '/projects/' | relative_url }}" class="text-decoration-none text-secondary me-3">Projects</a>
+        <a href="{{ '/essays/' | relative_url }}" class="text-decoration-none text-secondary me-3">Essays</a>
+        <a href="{{ '/resume/' | relative_url }}" class="text-decoration-none text-secondary">Resume</a>
       </div>
     </div>
 
     <!-- Contact Info Row -->
-    <div class="row mb-3">
+    <div class="row mb-4">
       <div class="col-12 text-center">
         <p class="mb-1">
           {% if site.data.bio.basics.location.address != '' and site.data.bio.basics.location.address != nil %}
-            {{ site.data.bio.basics.location.address }}, {{ site.data.bio.basics.location.city }}, {{ site.data.bio.basics.location.region }} {{ site.data.bio.basics.location.postalCode }} • 
+            {{ site.data.bio.basics.location.address }}, {{ site.data.bio.basics.location.city }}, {{ site.data.bio.basics.location.region }} {{ site.data.bio.basics.location.postalCode }} | 
           {% endif %}
-          {{ site.data.bio.basics.phone }} • 
+          {{ site.data.bio.basics.phone }} | 
           <a href="mailto:{{ site.data.bio.basics.email }}">{{ site.data.bio.basics.email }}</a>
         </p>
         <p class="mb-0">
@@ -33,21 +40,9 @@ layout: default
       </div>
     </div>
 
-    <!-- Summary Section -->
-    {% if site.data.bio.basics.summary and site.data.bio.basics.summary != '' %}
-    <div class="row pt-3 align-items-start">
-      <div class="col-lg-3">
-        <h1 class="display-6 text-start m-0">Summary</h1>
-      </div>
-      <div class="col-lg-9">
-        <p class="m-0">{{ site.data.bio.basics.summary }}</p>
-      </div>
-    </div>
-    {% endif %}
-
-    <!-- Work Section -->
+    <!-- Work Experience Section -->
     {% if site.data.bio.work %}
-    <div class="row pt-4 align-items-start">
+    <div class="row pt-2 align-items-start">
       <div class="col-lg-3">
         <h1 class="display-6 text-start m-0">Work Experience</h1>
       </div>
