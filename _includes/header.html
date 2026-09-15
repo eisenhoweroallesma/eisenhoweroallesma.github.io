@@ -1,17 +1,11 @@
 <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
-  <div class="container-fluid px-4">
-    <a class="navbar-brand" href="{{ '/' | relative_url }}">{{ site.data.bio.basics.name }}</a>
+  <div class="container-fluid">
+    <a class="navbar-brand" href="{{ '/' | prepend: site.baseurl }}">{{ site.data.bio.basics.name }}</a>
     <div class="ms-auto">
       <ul class="navbar-nav mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" href="{{ '/projects/' | relative_url }}">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{ '/essays/' | relative_url }}">Essays</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{ '/resume.html' | relative_url }}">Resume</a>
-        </li>
+        <a class="nav-link" href="{{ '/#projects' | prepend: site.baseurl }}">Projects</a>
+        <a class="nav-link" href="{{ '/#essays' | prepend: site.baseurl }}">Essays</a>
+        <a class="nav-link" href="{{ '/resume.html' | prepend: site.baseurl }}">Resume</a>
       </ul>
     </div>
   </div>
