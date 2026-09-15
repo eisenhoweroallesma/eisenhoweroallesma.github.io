@@ -6,22 +6,19 @@ layout: default
 <div style="background-color: var(--tf-page-bg-color)" class="bg-gradient py-3">
   <div class="container">
 
-    <!-- Name & Target Title -->
+    <!-- Name Row -->
     <div class="row mb-2">
       <div class="col">
-        <h1 class="display-4 text-center mb-1">{{ site.data.bio.basics.name }}</h1>
-        {% if site.data.bio.basics.label %}
-          <p class="text-center text-muted fw-bold fs-5 mb-0">{{ site.data.bio.basics.label }}</p>
-        {% endif %}
+        <h1 class="display-4 text-center">{{ site.data.bio.basics.name }}</h1>
       </div>
     </div>
 
-    <!-- Contact Header -->
+    <!-- Contact Info Row -->
     <div class="row mb-3">
       <div class="col-12 text-center">
         <p class="mb-1">
-          {% if site.data.bio.basics.location.city != '' and site.data.bio.basics.location.city != nil %}
-            {{ site.data.bio.basics.location.city }}, {{ site.data.bio.basics.location.region }} {{ site.data.bio.basics.location.postalCode }} • 
+          {% if site.data.bio.basics.location.address != '' and site.data.bio.basics.location.address != nil %}
+            {{ site.data.bio.basics.location.address }}, {{ site.data.bio.basics.location.city }}, {{ site.data.bio.basics.location.region }} {{ site.data.bio.basics.location.postalCode }} • 
           {% endif %}
           {{ site.data.bio.basics.phone }} • 
           <a href="mailto:{{ site.data.bio.basics.email }}">{{ site.data.bio.basics.email }}</a>
@@ -36,11 +33,11 @@ layout: default
       </div>
     </div>
 
-    <!-- Executive Summary -->
+    <!-- Summary Section -->
     {% if site.data.bio.basics.summary and site.data.bio.basics.summary != '' %}
     <div class="row pt-3 align-items-start">
       <div class="col-lg-3">
-        <h1 class="display-6 text-start m-0">Professional Summary</h1>
+        <h1 class="display-6 text-start m-0">Summary</h1>
       </div>
       <div class="col-lg-9">
         <p class="m-0">{{ site.data.bio.basics.summary }}</p>
@@ -48,41 +45,11 @@ layout: default
     </div>
     {% endif %}
 
-    <!-- Technical Qualifications (Moved Up for IT Roles) -->
-    {% if site.data.bio.skills or site.data.bio.awards %}
-    <div class="row pt-4 align-items-start">
-      <div class="col-lg-3">
-        <h1 class="display-6 text-start m-0">Technical Qualifications</h1>
-      </div>
-      <div class="col-lg-9">
-        <ul class="mb-0">
-          {% for entry in site.data.bio.skills %}
-            <li class="mb-1">
-              <b>{{ entry.name }}:</b> 
-              {% for keyword in entry.keywords %}
-                {{ keyword }}{% if forloop.last != true %}, {% endif %}
-              {% endfor %}
-            </li>
-          {% endfor %}
-
-          {% if site.data.bio.awards and site.data.bio.awards.size > 0 %}
-            <li class="mb-1">
-              <b>Certifications & Credentials:</b> 
-              {% for award in site.data.bio.awards %}
-                {{ award.title }}{% if forloop.last != true %}, {% endif %}
-              {% endfor %}
-            </li>
-          {% endif %}
-        </ul>
-      </div>
-    </div>
-    {% endif %}
-
-    <!-- Professional Experience -->
+    <!-- Work Section -->
     {% if site.data.bio.work %}
     <div class="row pt-4 align-items-start">
       <div class="col-lg-3">
-        <h1 class="display-6 text-start m-0">Professional Experience</h1>
+        <h1 class="display-6 text-start m-0">Work Experience</h1>
       </div>
       <div class="col-lg-9">
         {% for entry in site.data.bio.work %}
@@ -109,11 +76,11 @@ layout: default
     </div>
     {% endif %}
 
-    <!-- Education & Credentials -->
+    <!-- Education Section -->
     {% if site.data.bio.education %}
     <div class="row pt-4 align-items-start">
       <div class="col-lg-3">
-        <h1 class="display-6 text-start m-0">Education & Background</h1>
+        <h1 class="display-6 text-start m-0">Education</h1>
       </div>
       <div class="col-lg-9">
         {% for entry in site.data.bio.education %}
@@ -122,7 +89,7 @@ layout: default
               <p class="mb-0"><b>{{ entry.studyType }} in {{ entry.area }}</b></p>
               <p class="mb-1">{{ entry.institution }}</p>
               {% if entry.courses and entry.courses.size > 0 %}
-                <p class="mb-0"><b>Key Coursework:</b> {% for course in entry.courses %}{{ course }}{% if forloop.last != true %}, {% endif %}{% endfor %}</p>
+                <p class="mb-0">Relevant coursework in {% for course in entry.courses %}{{ course }}{% if forloop.last != true %}, {% endif %}{% endfor %}</p>
               {% endif %}
             </div>
             <div class="col-4">
@@ -132,6 +99,36 @@ layout: default
             </div>
           </div>
         {% endfor %}
+      </div>
+    </div>
+    {% endif %}
+
+    <!-- Additional Information Section -->
+    {% if site.data.bio.skills or site.data.bio.awards %}
+    <div class="row pt-4 align-items-start">
+      <div class="col-lg-3">
+        <h1 class="display-6 text-start m-0">Additional Information</h1>
+      </div>
+      <div class="col-lg-9">
+        <ul>
+          {% for entry in site.data.bio.skills %}
+            <li>
+              <b>{{ entry.name }}:</b> 
+              {% for keyword in entry.keywords %}
+                {{ keyword }}{% if forloop.last != true %}, {% endif %}
+              {% endfor %}
+            </li>
+          {% endfor %}
+
+          {% if site.data.bio.awards and site.data.bio.awards.size > 0 %}
+            <li>
+              <b>Certifications & Awards:</b> 
+              {% for award in site.data.bio.awards %}
+                {{ award.title }}{% if forloop.last != true %}, {% endif %}
+              {% endfor %}
+            </li>
+          {% endif %}
+        </ul>
       </div>
     </div>
     {% endif %}
