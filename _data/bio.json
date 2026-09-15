@@ -1,14 +1,14 @@
 {
   "basics": {
     "name": "Eisen Hower Oallesma",
-    "label": "",
+    "label": "IT Support Specialist / Help Desk Technician",
     "picture": "https://avatars.githubusercontent.com/u/157007056?s=400&u=32841c45262cc9828c1f3cec333b29b15a20596d&v=4",
     "email": "etoallesma808@gmail.com",
-    "phone": "(808)-319-1743",
-    "summary": "Graduate with a B.A. in Information and Computer Science specializing in desktop support, system administration, and technical troubleshooting.",
+    "phone": "808-319-1743",
+    "summary": "Detail-oriented Information and Computer Science graduate with hands-on expertise in hardware assembly, network troubleshooting, Linux/Windows administration, and end-user support. Proven customer service track record delivering fast, accurate troubleshooting and issue resolution in fast-paced environments.",
     "website": "https://eisenhoweroallesma.github.io/",
     "location": {
-      "address": "",
+      "address": "1046 Ehoeho Ave Apt 329",
       "postalCode": "96786",
       "city": "Wahiawa",
       "countryCode": "",
@@ -17,92 +17,99 @@
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "eisen-hower-oallesma-07b730276",
-        "url": "https://www.linkedin.com/in/eisen-hower-oallesma-07b730276"
+        "username": "eisen-hower-oallesma",
+        "url": "https://www.linkedin.com/in/eisen-hower-oallesma"
       }
     ]
   },
   "skills": [
     {
-      "name": "Languages and Frameworks",
-      "keywords": [ "C/C++", "Java", "JavaScript" ]
+      "name": "Systems & Operating Systems",
+      "keywords": [ "Windows OS", "Linux", "MacOS", "PC Assembly/Disassembly", "Hardware Diagnostics" ]
     },
     {
-      "name": "Toolsets/OS",
-      "keywords": [ "Microsoft Windows", "MacOS", "Git/GitHub" ]
-    }   
+      "name": "Networking & Troubleshooting",
+      "keywords": [ "Network Troubleshooting", "TCP/IP Basics", "System Diagnostics", "Technical Support" ]
+    },
+    {
+      "name": "Programming & Databases",
+      "keywords": [ "Java", "Python", "C/C++", "SQL", "HTML/CSS/JS", "Git/GitHub", "IntelliJ" ]
+    },
+    {
+      "name": "Languages",
+      "keywords": [ "English", "ASL (American Sign Language)" ]
+    }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Information and Computer Science",
-      "studyType": "B.A.",
-      "startDate": "2021",
-      "endDate": "2025",
-      "courses": []
+      "institution": "University of Hawaiʻi at Mānoa",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Arts",
+      "startDate": "Aug 2021",
+      "endDate": "May 2026",
+      "courses": [
+        "Operating Systems",
+        "Database Systems",
+        "Algorithms",
+        "Software Engineering",
+        "Machine-Level & Systems Programming"
+      ]
     },
     {
-      "institution": "Leeward Community College, Pearl City, HI",
-      "area": "Natural Science: Information and Computer Science",
-      "studyType": "A.S.",
-      "startDate": "2021",
-      "endDate": "2024",
+      "institution": "Leeward Community College",
+      "area": "Natural Science",
+      "studyType": "Associate of Science",
+      "startDate": "Aug 2015",
+      "endDate": "Aug 2019",
       "courses": []
     }
   ],
   "work": [
     {
-      "company": "Zippy's Mililani",
+      "company": "Zippy’s Mililani, FCH Enterprises, Inc.",
       "position": "Host",
       "website": "",
-      "startDate": "2023",
-      "endDate": "Present",
+      "startDate": "July 2023",
+      "endDate": "May 2026",
       "summary": "",
       "highlights": [
-        "Greeted customers promptly, served beverages, and distributed menus.",
-        "Bussed tables and sanitized dining areas for incoming guests.",
-        "Processed takeout orders accurately through the POS system."
+        "Deliver professional customer service by greeting guests, managing ticket flow, and resolving immediate service inquiries efficiently.",
+        "Assist staff during peak operations by coordinating beverage orders and optimizing seating rotation during high-volume periods.",
+        "Ensure full regulatory compliance by completing routine safety audits, sanitation checks, and detailed operational logs."
       ]
     },
     {
-      "company": "McDonald's",
+      "company": "Mcdonald’s, McDonald’s Corporation",
       "position": "Crew Member",
       "website": "",
-      "startDate": "2022",
-      "endDate": "2023",
+      "startDate": "May 2022",
+      "endDate": "May 2023",
       "summary": "",
       "highlights": [
-        "Processed customer orders and payments accurately while maintaining efficient meal assembly.",
-        "Kept food preparation areas, equipment, and utensils sanitized according to safety standards.",
-        "Maintained high customer service standards during peak operating hours.",
-        "Handled inventory shipments, stocking supplies in designated areas and preparing materials for daily operations."
+        "Multitasked effectively across point-of-sale (POS) terminal order management, customer requests, and facility maintenance.",
+        "Managed inventory shipment processing, auditing supply lists against deliveries and organizing stock for immediate operational readiness.",
+        "Handled front-counter and drive-thru order presentation with high attention to detail during peak volume hours."
       ]
     }
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2021-2023",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "title": "Software Developer Specialist (SDSP)",
+      "date": "2023",
+      "awarder": "Leeward Community College",
+      "summary": ""
     },
     {
-      "title": "CO - ICS - Basic Logic & Programming Level 1 & 2",
+      "title": "Basic Logic & Programming (Lvl 1 & 2)",
       "date": "2022-2023",
       "awarder": "Leeward Community College",
-      "summary": "Completion providing an overview of the fundamentals of computer programming, advanced programming concepts, and discrete mathematics."
+      "summary": ""
     },
     {
-      "title": "CO - ICS - Software Developer Specialist",
+      "title": "Academic Subject Certificate in ICS",
       "date": "2023",
       "awarder": "Leeward Community College",
-      "summary": "Certificate focusing on application development in object-oriented languages using data structures, recursion, and graphical user interfaces."
-    },
-    {
-      "title": "ASC - Information & Computer Sciences",
-      "date": "2023",
-      "awarder": "Leeward Community College",
-      "summary": "Academic Subject Certificate preparing for the B.A. degree program in Information and Computer Science at UH Mānoa."
+      "summary": ""
     }
   ]
 }
