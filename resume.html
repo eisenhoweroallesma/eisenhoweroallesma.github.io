@@ -6,117 +6,90 @@ layout: default
 <div style="background-color: var(--tf-page-bg-color)" class="bg-gradient py-3">
   <div class="container">
 
-    <!-- Name Row -->
+    <!-- Name & Target Title -->
     <div class="row mb-2">
       <div class="col">
-        <h1 class="display-4 text-center">{{ site.data.bio.basics.name }}</h1>
+        <h1 class="display-4 text-center mb-1">{{ site.data.bio.basics.name }}</h1>
+        {% if site.data.bio.basics.label %}
+          <p class="text-center text-muted fw-bold fs-5 mb-0">{{ site.data.bio.basics.label }}</p>
+        {% endif %}
       </div>
     </div>
 
-    <!-- Contact Info Row -->
-    <div class="row mb-4">
+    <!-- Contact Header -->
+    <div class="row mb-3">
       <div class="col-12 text-center">
         <p class="mb-1">
           {% if site.data.bio.basics.location.city != '' and site.data.bio.basics.location.city != nil %}
-            {{ site.data.bio.basics.location.city }}, {{ site.data.bio.basics.location.region }} {{ site.data.bio.basics.location.postalCode }} | 
+            {{ site.data.bio.basics.location.city }}, {{ site.data.bio.basics.location.region }} {{ site.data.bio.basics.location.postalCode }} • 
           {% endif %}
-          {{ site.data.bio.basics.phone }} | 
+          {{ site.data.bio.basics.phone }} • 
           <a href="mailto:{{ site.data.bio.basics.email }}">{{ site.data.bio.basics.email }}</a>
         </p>
         <p class="mb-0">
-          {% if site.data.bio.basics.website and site.data.bio.basics.website != '' %}
-            <a href="{{ site.data.bio.basics.website }}" target="_blank">GitHub Portfolio</a>
-          {% endif %}
           {% for profile in site.data.bio.basics.profiles %}
             {% if profile.url and profile.url != '' %}
-              | <a href="{{ profile.url }}" target="_blank">{{ profile.network | capitalize }} Profile</a>
+              <a href="{{ profile.url }}" target="_blank">{{ profile.url | remove: "https://" }}</a>
             {% endif %}
           {% endfor %}
         </p>
       </div>
     </div>
 
-    <!-- Skills Section -->
-    {% if site.data.bio.skills %}
-    <div class="row pt-4 align-items-center">
+    <!-- Executive Summary -->
+    {% if site.data.bio.basics.summary and site.data.bio.basics.summary != '' %}
+    <div class="row pt-3 align-items-start">
       <div class="col-lg-3">
-        <h1 class="display-6 text-start m-0">Skills</h1>
+        <h1 class="display-6 text-start m-0">Professional Summary</h1>
       </div>
       <div class="col-lg-9">
-        {% for entry in site.data.bio.skills %}
-          <p class="m-0">
-            <b>{{ entry.name }}:</b>
+        <p class="m-0">{{ site.data.bio.basics.summary }}</p>
+      </div>
+    </div>
+    {% endif %}
+
+    <!-- Technical Qualifications (Moved Up for IT Roles) -->
+    {% if site.data.bio.skills or site.data.bio.awards %}
+    <div class="row pt-4 align-items-start">
+      <div class="col-lg-3">
+        <h1 class="display-6 text-start m-0">Technical Qualifications</h1>
+      </div>
+      <div class="col-lg-9">
+        <ul class="mb-0">
+          {% for entry in site.data.bio.skills %}
+            <li class="mb-1">
+              <b>{{ entry.name }}:</b> 
               {% for keyword in entry.keywords %}
                 {{ keyword }}{% if forloop.last != true %}, {% endif %}
               {% endfor %}
-          </p>
-        {% endfor %}
+            </li>
+          {% endfor %}
+
+          {% if site.data.bio.awards and site.data.bio.awards.size > 0 %}
+            <li class="mb-1">
+              <b>Certifications & Credentials:</b> 
+              {% for award in site.data.bio.awards %}
+                {{ award.title }}{% if forloop.last != true %}, {% endif %}
+              {% endfor %}
+            </li>
+          {% endif %}
+        </ul>
       </div>
     </div>
     {% endif %}
 
-    <!-- Education Section -->
-    {% if site.data.bio.education %}
-    <div class="row pt-4 align-items-start">
-      <div class="col-lg-3">
-        <h1 class="display-6 text-start m-0">Education</h1>
-      </div>
-      <div class="col-lg-9">
-        {% for entry in site.data.bio.education %}
-          {% unless entry.institution contains "High School" %}
-          <div class="row mb-3">
-            <div class="col-9">
-              <p class="m-0"><b>{{ entry.institution }}</b></p>
-              <p class="m-0">{{ entry.studyType }} {{ entry.area }}</p>
-              {% if entry.courses and entry.courses.size > 0 %}
-                <ul>
-                  {% for course in entry.courses %}
-                    <li>{{ course }}</li>
-                  {% endfor %}
-                </ul>
-              {% endif %}
-            </div>
-            <div class="col-3">
-              <p class="m-0 text-end">
-                {% if entry.startDate %}
-                  {{ entry.startDate | slice: 0,4 }}
-                {% endif %}
-                {% if entry.startDate and entry.startDate != '' and entry.endDate and entry.endDate != '' %}
-                -
-                {% endif %}
-                {% if entry.endDate %}
-                  {% if entry.endDate != "Present" %}
-                    {{ entry.endDate | slice: 0,4 }}
-                  {% else %}
-                    {{ entry.endDate }}
-                  {% endif %}
-                {% endif %}
-              </p>
-            </div>
-          </div>
-          {% endunless %}
-        {% endfor %}
-      </div>
-    </div>
-    {% endif %}
-
-    <!-- Work Section -->
+    <!-- Professional Experience -->
     {% if site.data.bio.work %}
     <div class="row pt-4 align-items-start">
       <div class="col-lg-3">
-        <h1 class="display-6 text-start m-0">Work</h1>
+        <h1 class="display-6 text-start m-0">Professional Experience</h1>
       </div>
       <div class="col-lg-9">
         {% for entry in site.data.bio.work %}
           <div class="row mb-3">
-            <div class="col-9">
-              <p class="mb-0"><b>{{ entry.position }}, {{ entry.company }}</b></p>
-              {% if entry.website and entry.website != '' %}
-                <p class="mb-0"><a href="{{ entry.website }}" target="_blank">{{ entry.website | remove: "http://" | remove: "https://" }}</a></p>
-              {% endif %}
-              {% if entry.summary and entry.summary != '' %}
-                <p class="mb-0">{{ entry.summary }}</p>
-              {% endif %}
+            <div class="col-8">
+              <p class="mb-0"><b>{{ entry.company }}</b></p>
+              <p class="mb-1"><i>{{ entry.position }}</i></p>
               {% if entry.highlights and entry.highlights.size > 0 %}
                 <ul>
                   {% for highlight in entry.highlights %}
@@ -125,21 +98,9 @@ layout: default
                 </ul>
               {% endif %}
             </div>
-            <div class="col-3">
+            <div class="col-4">
               <p class="m-0 text-end">
-                {% if entry.startDate %}
-                  {{ entry.startDate | slice: 0,4 }}
-                {% endif %}
-                {% if entry.startDate and entry.startDate != '' and entry.endDate and entry.endDate != '' %}
-                -
-                {% endif %}
-                {% if entry.endDate %}
-                  {% if entry.endDate != "Present" %}
-                    {{ entry.endDate | slice: 0,4 }}
-                  {% else %}
-                    {{ entry.endDate }}
-                  {% endif %}
-                {% endif %}
+                {{ entry.startDate }} - {{ entry.endDate }}
               </p>
             </div>
           </div>
@@ -148,75 +109,28 @@ layout: default
     </div>
     {% endif %}
 
-    <!-- Activities / Volunteer Section -->
-    {% if site.data.bio.volunteer %}
-      <div class="row pt-4 align-items-start">
-        <div class="col-lg-3">
-          <h1 class="display-6 text-start m-0">Activities</h1>
-        </div>
-        <div class="col-lg-9">
-          {% for entry in site.data.bio.volunteer %}
+    <!-- Education & Credentials -->
+    {% if site.data.bio.education %}
+    <div class="row pt-4 align-items-start">
+      <div class="col-lg-3">
+        <h1 class="display-6 text-start m-0">Education & Background</h1>
+      </div>
+      <div class="col-lg-9">
+        {% for entry in site.data.bio.education %}
           <div class="row mb-3">
-            <div class="col-9">
-              <p class="mb-0"><b>{{ entry.position }}{% if entry.organization %}, {{ entry.organization }}{% endif %}</b></p>
-              {% if entry.summary and entry.summary != '' %}
-                <p class="mb-0">{{ entry.summary }}</p>
-              {% endif %}
-              {% if entry.highlights and entry.highlights.size > 0 %}
-                <ul>
-                {% for highlight in entry.highlights %}
-                  <li>{{ highlight }}</li>
-                {% endfor %}
-              </ul>
+            <div class="col-8">
+              <p class="mb-0"><b>{{ entry.studyType }} in {{ entry.area }}</b></p>
+              <p class="mb-1">{{ entry.institution }}</p>
+              {% if entry.courses and entry.courses.size > 0 %}
+                <p class="mb-0"><b>Key Coursework:</b> {% for course in entry.courses %}{{ course }}{% if forloop.last != true %}, {% endif %}{% endfor %}</p>
               {% endif %}
             </div>
-            <div class="col-3">
+            <div class="col-4">
               <p class="m-0 text-end">
-                {% if entry.startDate %}
-                  {{ entry.startDate | slice: 0,4 }}
-                {% endif %}
-                {% if entry.startDate and entry.startDate != '' and entry.endDate and entry.endDate != '' %}
-                -
-                {% endif %}
-                {% if entry.endDate %}
-                  {% if entry.endDate != "Present" %}
-                    {{ entry.endDate | slice: 0,4 }}
-                  {% else %}
-                    {{ entry.endDate }}
-                  {% endif %}
-                {% endif %}
+                {{ entry.startDate }} - {{ entry.endDate }}
               </p>
             </div>
           </div>
-          {% endfor %}
-        </div>
-      </div>
-    {% endif %}
-
-    <!-- Awards Section -->
-    {% if site.data.bio.awards %}
-    <div class="row pt-4 align-items-start">
-      <div class="col-lg-3">
-        <h1 class="display-6 text-start m-0">Awards</h1>
-      </div>
-
-      <div class="col-lg-9">
-      {% for entry in site.data.bio.awards %}
-        <div class="row mb-3">
-          <div class="col-9">
-            <p class="mb-0">
-              <b>{{ entry.title }}</b>, {{ entry.awarder }}
-            </p>
-            {% if entry.summary and entry.summary != '' %}
-              <p class="mb-0">{{ entry.summary }}</p>
-            {% endif %}
-          </div>
-          <div class="col-3">
-            <p class="m-0 text-end">
-              {{ entry.date }}
-            </p>
-          </div>
-        </div>
         {% endfor %}
       </div>
     </div>
