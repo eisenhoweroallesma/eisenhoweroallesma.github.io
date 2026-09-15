@@ -7,52 +7,28 @@ layout: default
   <div class="container">
 
     <!-- Name Row -->
-    <div class="row">
+    <div class="row mb-2">
       <div class="col">
         <h1 class="display-4 text-center">{{ site.data.bio.basics.name }}</h1>
       </div>
     </div>
 
-    <!-- Contact Info Row -->
-    <div class="row align-items-start">
-      <div class="col-6">
-        <!-- 1. Email -->
-        {% capture url %}mailto:{{ site.data.bio.basics.email }}{% endcapture %}
-        {% capture label %}{{ site.data.bio.basics.email }}{% endcapture %}
-        <p class="mb-1">{% include about/social.html url=url name='envelope' label=label %}</p>
-
-        <!-- 2. GitHub (Website) -->
-        {% capture url %}{{ site.data.bio.basics.website }}{% endcapture %}
-        {% capture label %}{{ site.data.bio.basics.website | remove: "http://" | remove: "https://" }}{% endcapture %}
-        <p class="mb-1">{% include about/social.html url=url name='house' label=label %}</p>
-
-        <!-- 3. LinkedIn -->
-        {% for profile in site.data.bio.basics.profiles %}
-          {% capture url %}{{ profile.url }}{% endcapture %}
-          {% capture name %}{{ profile.network | downcase }}{% endcapture %}
-          {% capture label %}{{ profile.url | remove: "http://" | remove: "https://" | remove: "www." }}{% endcapture %}
-          <p class="mb-1">{% include about/social.html url=url name=name label=label %}</p>
-        {% endfor %}
-      </div>
-
-      <div class="col-6 text-end">
-        {% if site.data.bio.basics.location.address and site.data.bio.basics.location.address != '' %}
-          <p class="mb-1">{{ site.data.bio.basics.location.address }}</p>
-        {% endif %}
-        <p class="mb-1">{{ site.data.bio.basics.location.city }}, {{ site.data.bio.basics.location.region }} {{ site.data.bio.basics.location.postalCode }}</p>
-        <p class="mb-1">{{ site.data.bio.basics.phone }}</p>
-      </div>
-    </div>
-
-    <div class="row pt-4 align-items-center">
-      <div class="col-lg-3">
-        <h1 class="display-6 text-start m-0">Interests</h1>
-      </div>
-      <div class="col-lg-9">
-        <p class="m-0">
-          {% for entry in site.data.bio.interests %}
-          {{ entry.name }}
-          {% if entry.keywords and entry.keywords.size > 0 %}({% for keyword in entry.keywords %}{{ keyword }}{% if forloop.last != true %},{% endif %}{% endfor %}){% endif %}{% if forloop.last != true %}, {% endif %}
+    <!-- Updated Contact Info Row -->
+    <div class="row mb-4">
+      <div class="col-12 text-center">
+        <p class="mb-1">
+          {% if site.data.bio.basics.location.city %}
+            {{ site.data.bio.basics.location.city }}, {{ site.data.bio.basics.location.region }} {{ site.data.bio.basics.location.postalCode }} | 
+          {% endif %}
+          {{ site.data.bio.basics.phone }} | 
+          <a href="mailto:{{ site.data.bio.basics.email }}">{{ site.data.bio.basics.email }}</a>
+        </p>
+        <p class="mb-0">
+          {% if site.data.bio.basics.website %}
+            <a href="{{ site.data.bio.basics.website }}" target="_blank">GitHub Portfolio</a>
+          {% endif %}
+          {% for profile in site.data.bio.basics.profiles %}
+            | <a href="{{ profile.url }}" target="_blank">{{ profile.network }} Profile</a>
           {% endfor %}
         </p>
       </div>
@@ -128,7 +104,9 @@ layout: default
           <div class="row mb-3">
             <div class="col-9">
               <p class="mb-0"><b>{{ entry.position }}, {{ entry.company }}</b></p>
-              <p class="mb-0"><a href="{{ entry.website }}">{{ entry.website | remove: "http://" | remove: "https://" }}</a></p>
+              {% if entry.website %}
+                <p class="mb-0"><a href="{{ entry.website }}" target="_blank">{{ entry.website | remove: "http://" | remove: "https://" }}</a></p>
+              {% endif %}
               <p class="mb-0">{{ entry.summary }}</p>
               {% if entry.highlights %}
                 <ul>
@@ -171,7 +149,9 @@ layout: default
           <div class="row mb-3">
             <div class="col-9">
               <p class="mb-0"><b>{{ entry.position }}{% if entry.organization %}, {{ entry.organization }}{% endif %}</b></p>
-              <p class="mb-0"><a href="{{ entry.website }}">{{ entry.website | remove: "http://" | remove: "https://" }}</a></p>
+              {% if entry.website %}
+                <p class="mb-0"><a href="{{ entry.website }}" target="_blank">{{ entry.website | remove: "http://" | remove: "https://" }}</a></p>
+              {% endif %}
               <p class="mb-0">{{ entry.summary }}</p>
               {% if entry.highlights %}
                 <ul>
@@ -226,25 +206,6 @@ layout: default
           </div>
         </div>
         {% endfor %}
-      </div>
-    </div>
-    {% endif %}
-
-    {% if site.data.bio.references %}
-    <div class="row pt-4 align-items-center">
-      <div class="col-lg-3">
-        <h1 class="display-6 text-start m-0">References</h1>
-      </div>
-
-      <div class="col-lg-9">
-        <p class="m-0">
-          {% for entry in site.data.bio.references %}
-            {{ entry.name }}
-            {% if entry.reference and entry.reference.size > 0 %}
-              <em>{{ entry.reference }}</em>
-            {% endif %}
-          {% endfor %}
-        </p>
       </div>
     </div>
     {% endif %}
