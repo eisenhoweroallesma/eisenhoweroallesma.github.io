@@ -17,18 +17,20 @@ layout: default
     <div class="row mb-4">
       <div class="col-12 text-center">
         <p class="mb-1">
-          {% if site.data.bio.basics.location.city %}
+          {% if site.data.bio.basics.location.city != '' and site.data.bio.basics.location.city != nil %}
             {{ site.data.bio.basics.location.city }}, {{ site.data.bio.basics.location.region }} {{ site.data.bio.basics.location.postalCode }} | 
           {% endif %}
           {{ site.data.bio.basics.phone }} | 
           <a href="mailto:{{ site.data.bio.basics.email }}">{{ site.data.bio.basics.email }}</a>
         </p>
         <p class="mb-0">
-          {% if site.data.bio.basics.website %}
+          {% if site.data.bio.basics.website and site.data.bio.basics.website != '' %}
             <a href="{{ site.data.bio.basics.website }}" target="_blank">GitHub Portfolio</a>
           {% endif %}
           {% for profile in site.data.bio.basics.profiles %}
-            | <a href="{{ profile.url }}" target="_blank">LinkedIn Profile</a>
+            {% if profile.url and profile.url != '' %}
+              | <a href="{{ profile.url }}" target="_blank">{{ profile.network | capitalize }} Profile</a>
+            {% endif %}
           {% endfor %}
         </p>
       </div>
@@ -66,7 +68,7 @@ layout: default
             <div class="col-9">
               <p class="m-0"><b>{{ entry.institution }}</b></p>
               <p class="m-0">{{ entry.studyType }} {{ entry.area }}</p>
-              {% if entry.courses %}
+              {% if entry.courses and entry.courses.size > 0 %}
                 <ul>
                   {% for course in entry.courses %}
                     <li>{{ course }}</li>
@@ -109,8 +111,13 @@ layout: default
           <div class="row mb-3">
             <div class="col-9">
               <p class="mb-0"><b>{{ entry.position }}, {{ entry.company }}</b></p>
-              <p class="mb-0">{{ entry.summary }}</p>
-              {% if entry.highlights %}
+              {% if entry.website and entry.website != '' %}
+                <p class="mb-0"><a href="{{ entry.website }}" target="_blank">{{ entry.website | remove: "http://" | remove: "https://" }}</a></p>
+              {% endif %}
+              {% if entry.summary and entry.summary != '' %}
+                <p class="mb-0">{{ entry.summary }}</p>
+              {% endif %}
+              {% if entry.highlights and entry.highlights.size > 0 %}
                 <ul>
                   {% for highlight in entry.highlights %}
                     <li>{{ highlight }}</li>
@@ -127,12 +134,12 @@ layout: default
                 -
                 {% endif %}
                 {% if entry.endDate %}
-                {% if entry.endDate != "Present" %}
-                  {{ entry.endDate | slice: 0,4 }}
-                {% else %}
-                  {{ entry.endDate }}
+                  {% if entry.endDate != "Present" %}
+                    {{ entry.endDate | slice: 0,4 }}
+                  {% else %}
+                    {{ entry.endDate }}
+                  {% endif %}
                 {% endif %}
-              {% endif %}
               </p>
             </div>
           </div>
@@ -152,8 +159,10 @@ layout: default
           <div class="row mb-3">
             <div class="col-9">
               <p class="mb-0"><b>{{ entry.position }}{% if entry.organization %}, {{ entry.organization }}{% endif %}</b></p>
-              <p class="mb-0">{{ entry.summary }}</p>
-              {% if entry.highlights %}
+              {% if entry.summary and entry.summary != '' %}
+                <p class="mb-0">{{ entry.summary }}</p>
+              {% endif %}
+              {% if entry.highlights and entry.highlights.size > 0 %}
                 <ul>
                 {% for highlight in entry.highlights %}
                   <li>{{ highlight }}</li>
@@ -198,11 +207,13 @@ layout: default
             <p class="mb-0">
               <b>{{ entry.title }}</b>, {{ entry.awarder }}
             </p>
-            <p class="mb-0">{{ entry.summary }}</p>
+            {% if entry.summary and entry.summary != '' %}
+              <p class="mb-0">{{ entry.summary }}</p>
+            {% endif %}
           </div>
           <div class="col-3">
             <p class="m-0 text-end">
-              {{ entry.date}}
+              {{ entry.date }}
             </p>
           </div>
         </div>
