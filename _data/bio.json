@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Eisen Hower Oallesma",
-    "label": "",
+    "label": "Aspiring IT Help Desk & Support Specialist",
     "picture": "https://avatars.githubusercontent.com/u/157007056?s=400&u=32841c45262cc9828c1f3cec333b29b15a20596d&v=4",
     "email": "etoallesma808@gmail.com",
     "phone": "808-319-1743",
-    "summary": "Detail-oriented Computer Science graduate with hands-on experience building web applications, designing database systems, and managing technical projects. Skilled in Java, Python, C/C++, and full-stack web development, with a strong foundation in IT support and customer-facing operations.",
+    "summary": "Detail-oriented Computer Science graduate with strong technical problem-solving skills and 4 years of customer service experience. Seeking an entry-level IT Help Desk or Support Specialist position to leverage expertise in systems administration, network troubleshooting, hardware maintenance, and end-user support.",
     "website": "https://eisenhoweroallesma.github.io/",
     "location": {
       "address": "1046 Ehoeho Ave Apt 329",
@@ -22,6 +22,13 @@
       }
     ]
   },
+  "interests": [
+    { "name": "IT Infrastructure" },
+    { "name": "Network Troubleshooting" },
+    { "name": "Systems Administration" },
+    { "name": "Hardware Diagnostics" },
+    { "name": "User Support" }
+  ],
   "skills": [
     {
       "name": "Technical Skills",
