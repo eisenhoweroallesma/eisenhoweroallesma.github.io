@@ -5,57 +5,29 @@ title: Resume
 
 {% include header.html %}
 
-<div style="background-color: var(--tf-page-bg-color)" class="bg-gradient py-3">
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-lg-4 text-center mb-4 mb-lg-0">
-        <img width="300px" src="{{ site.data.bio.basics.picture }}" class="img-fluid rounded-circle" alt="Eisen Hower Oallesma">
-      </div>
-      <div class="col-lg-8 text-center text-lg-start">
-        <h1 class="display-4 text-center text-lg-start fw-normal">Eisen Hower Oallesma</h1>
-        <p class="lead text-center text-lg-start text-muted mb-3">Aspiring IT Help Desk & Support Specialist</p>
-        <p class="lead text-start">
-          Detail-oriented Computer Science graduate with strong technical problem-solving skills and 4 years of customer service experience. Seeking an entry-level IT Help Desk or Support Specialist position to leverage expertise in systems administration, network troubleshooting, hardware maintenance, and end-user support.
-        </p>
-        
-        <hr class="my-4">
-        
-        <!-- Interests & Focus Areas Badges -->
-        <div class="mb-3 text-start">
-          <p class="fw-bold mb-2">Interests & Focus Areas:</p>
-          <div class="d-flex flex-wrap gap-2">
-            {% for interest in site.data.bio.interests %}
-              <span class="badge bg-secondary px-3 py-2 fs-6 rounded-pill">{{ interest.name }}</span>
-            {% endfor %}
-          </div>
-        </div>
-
-        <hr class="my-4">
-        
-        <!-- Contact Links / Social Icons -->
-        <div class="row text-center text-lg-start">
-          <div class="col-12">
-            <p class="mb-1">Wahiawa, HI 96786 | 808-319-1743 | <a href="mailto:etoallesma808@gmail.com">etoallesma808@gmail.com</a></p>
-            <p class="mb-0">
-              <a href="https://www.linkedin.com/in/eisen-hower-oallesma" target="_blank">linkedin.com/in/eisen-hower-oallesma</a> | 
-              <a href="https://eisenhoweroallesma.github.io/" target="_blank">eisenhoweroallesma.github.io</a>
-            </p>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </div>
-</div>
-
 <div class="container py-5">
+  <!-- Header / Contact Info -->
+  <div class="text-center mb-5">
+    <h1 class="display-4 text-center fw-normal">Eisen Hower Oallesma</h1>
+    <p class="lead text-center text-muted mb-1">
+      Wahiawa, HI 96786 | 808-319-1743 | 
+      <a href="mailto:etoallesma808@gmail.com">etoallesma808@gmail.com</a>
+    </p>
+    <p class="lead text-center text-muted">
+      <a href="https://www.linkedin.com/in/eisen-hower-oallesma" target="_blank">linkedin.com/in/eisen-hower-oallesma</a> | 
+      <a href="https://eisenhoweroallesma.github.io/" target="_blank">eisenhoweroallesma.github.io</a>
+    </p>
+  </div>
+
+  <hr class="my-4">
+
   <!-- Technical Skills Section -->
   <div class="row mb-4">
     <div class="col-lg-3">
-      <h3 class="fw-bold">Technical Skills</h3>
+      <h2 class="display-6">Technical Skills</h2>
     </div>
     <div class="col-lg-9">
-      <ul class="list-unstyled mb-0">
+      <ul class="list-unstyled mb-0 lead fs-6">
         <li class="mb-2"><strong>Languages & Web:</strong> Java, Python, C / C++, SQL, HTML/CSS, JavaScript</li>
         <li class="mb-2"><strong>Systems & Tools:</strong> Linux, Windows OS, Git/GitHub, IntelliJ, Terminal/Command Line</li>
         <li class="mb-2"><strong>IT & Hardware:</strong> PC Assembly/Disassembly, Hardware Diagnostics, Network Troubleshooting, Systems Admin Basics</li>
@@ -69,21 +41,21 @@ title: Resume
   <!-- Education & Certifications -->
   <div class="row mb-4">
     <div class="col-lg-3">
-      <h3 class="fw-bold">Education & Certifications</h3>
+      <h2 class="display-6">Education & Certifications</h2>
     </div>
     <div class="col-lg-9">
-      <div class="d-flex justify-content-between">
-        <h5 class="fw-bold mb-0">Bachelor of Arts in Computer Science</h5>
+      <div class="d-flex justify-content-between align-items-baseline">
+        <h4 class="fw-normal mb-0">Bachelor of Arts in Computer Science</h4>
         <span class="text-muted">Aug 2021 - May 2026</span>
       </div>
-      <p class="text-muted mb-2">University of Hawaiʻi at Mānoa</p>
-      <p class="small text-secondary mb-3"><strong>Relevant Coursework:</strong> Database Systems, Operating Systems, Algorithms, Software Engineering, Machine-Level & Systems Programming</p>
+      <p class="lead text-muted mb-2">University of Hawaiʻi at Mānoa</p>
+      <p class="text-secondary mb-3"><strong>Relevant Coursework:</strong> Database Systems, Operating Systems, Algorithms, Software Engineering, Machine-Level & Systems Programming</p>
 
-      <div class="d-flex justify-content-between">
-        <h5 class="fw-bold mb-0">Associate of Science in Natural Science</h5>
+      <div class="d-flex justify-content-between align-items-baseline">
+        <h4 class="fw-normal mb-0">Associate of Science in Natural Science</h4>
         <span class="text-muted">Aug 2015 - Aug 2019</span>
       </div>
-      <p class="text-muted mb-3">Leeward Community College</p>
+      <p class="lead text-muted mb-3">Leeward Community College</p>
 
       <p class="mb-0"><strong>Certificates & Awards:</strong> Software Developer Specialist (SDSP), Basic Logic & Programming (Lvl 1 & 2), Academic Subject Certificate in ICS</p>
     </div>
@@ -94,11 +66,11 @@ title: Resume
   <!-- Technical Projects -->
   <div class="row mb-4">
     <div class="col-lg-3">
-      <h3 class="fw-bold">Technical Projects</h3>
+      <h2 class="display-6">Technical Projects</h2>
     </div>
     <div class="col-lg-9">
-      <div class="d-flex justify-content-between">
-        <h5 class="fw-bold mb-0">Manoa Club Connect</h5>
+      <div class="d-flex justify-content-between align-items-baseline">
+        <h4 class="fw-normal mb-0">Manoa Club Connect</h4>
         <span class="text-muted">2024</span>
       </div>
       <p class="text-muted mb-1">Web Application Project</p>
@@ -107,8 +79,8 @@ title: Resume
         <li>Implemented dynamic front-end views using Meteor and modern web tools to streamline user navigation and accessibility.</li>
       </ul>
 
-      <div class="d-flex justify-content-between">
-        <h5 class="fw-bold mb-0">Custom Computer System Build & Maintenance</h5>
+      <div class="d-flex justify-content-between align-items-baseline">
+        <h4 class="fw-normal mb-0">Custom Computer System Build & Maintenance</h4>
         <span class="text-muted">2021</span>
       </div>
       <p class="text-muted mb-1">Hardware & Systems Project</p>
@@ -124,11 +96,11 @@ title: Resume
   <!-- Work Experience -->
   <div class="row mb-4">
     <div class="col-lg-3">
-      <h3 class="fw-bold">Work Experience</h3>
+      <h2 class="display-6">Work Experience</h2>
     </div>
     <div class="col-lg-9">
-      <div class="d-flex justify-content-between">
-        <h5 class="fw-bold mb-0">Host</h5>
+      <div class="d-flex justify-content-between align-items-baseline">
+        <h4 class="fw-normal mb-0">Host</h4>
         <span class="text-muted">July 2023 - May 2026</span>
       </div>
       <p class="text-muted mb-1">Zippy's Mililani, FCH Enterprises, Inc.</p>
@@ -137,8 +109,8 @@ title: Resume
         <li>Managed front-of-house workflow efficiency, expedited order requests, and maintained accurate operational logs and compliance standards.</li>
       </ul>
 
-      <div class="d-flex justify-content-between">
-        <h5 class="fw-bold mb-0">Crew Member</h5>
+      <div class="d-flex justify-content-between align-items-baseline">
+        <h4 class="fw-normal mb-0">Crew Member</h4>
         <span class="text-muted">May 2022 - May 2023</span>
       </div>
       <p class="text-muted mb-1">McDonald's Corporation</p>
