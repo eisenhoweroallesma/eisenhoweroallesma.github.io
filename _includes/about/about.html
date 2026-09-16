@@ -1,23 +1,29 @@
 <div style="background-color: var(--tf-page-bg-color)" class="bg-gradient py-3">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-4">
-        <img width="300px" src="{{ site.data.bio.basics.picture }}" class="d-block mx-auto rounded-circle">
+    <div class="row align-items-center">
+      <div class="col-lg-4 text-center mb-3 mb-lg-0">
+        <img width="300px" src="{{ site.data.bio.basics.picture }}" class="img-fluid rounded-circle">
       </div>
       <div class="col-lg-8">
-        <h1 class="display-4 text-center">{{ site.data.bio.basics.name }}</h1>
-        <p class="lead text-center">{{ site.data.bio.basics.label }}</p>
+        <h1 class="display-4 text-center text-lg-start">{{ site.data.bio.basics.name }}</h1>
+        <p class="lead text-center text-lg-start text-muted mb-3">{{ site.data.bio.basics.label }}</p>
         <p class="lead">{{ site.data.bio.basics.summary }}</p>
+        
         <hr class="my-4">
-        <p class="lead m-0">
-          Interests:
-          {% for interest in site.data.bio.interests %}
-          {{ interest.name }}{% if forloop.last != true %}, {% endif %}
-          {% endfor %}
-        </p>
-        <hr class="my-4">
-        <div class="row">
+        
+        <!-- Interests Badge Display -->
+        <div class="mb-3">
+          <p class="fw-bold mb-2">Interests & Focus Areas:</p>
+          <div class="d-flex flex-wrap gap-2">
+            {% for interest in site.data.bio.interests %}
+              <span class="badge bg-secondary px-3 py-2 fs-6 rounded-pill">{{ interest.name }}</span>
+            {% endfor %}
+          </div>
+        </div>
 
+        <hr class="my-4">
+        
+        <div class="row">
           {% if site.data.bio.basics.website %}
             {% capture url %}{{ site.data.bio.basics.website }}{% endcapture %}
             <div class="col text-center">
@@ -39,7 +45,6 @@
               {% include about/social.html url=url name=name %}
             </div>
           {% endfor %}
-
         </div>
       </div>
     </div>
